@@ -1,0 +1,36 @@
+<div class="aniFrame">
+  <div class="titlePic">
+    <div class="titlePwrapper">
+      <div class="leftZone">
+        <span class="icon-iiconLogoB"></span>
+        <h4>KCASINO</h4><span>거래 기록</span>
+      </div>
+      <div class="line"></div>
+    </div>
+  </div>
+  <!--main_content： 主要內容區塊開始-->
+  <div class="main_content">
+    <div class="main_content_wrap main_content_wrap_notice">
+      <!--gameZone_start-->
+      @@if (name === "balanceH") {
+        <div class="fundFrame noticeFrame balanceFrame messageFrame">
+          @@include('./components_content_timeselector.html',{ "type": true })
+          @@include('./components_content_table.html', {
+            name: "balanceH"
+          })
+        </div>
+      }
+      @@if (name === "betH") {
+        <div class="fundFrame noticeFrame bHisFrame messageFrame">
+          @@context.name
+          @@include('./components_content_navigation.html')
+          @@include('./components_content_timeselector.html',{ "type": false })
+          @@include('./components_content_table.html', {
+            name: "betH"
+          })
+        </div>
+      }
+      <!--gameZone_end-->
+    </div>
+  </div>
+</div>

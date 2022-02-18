@@ -1,0 +1,130 @@
+<div class="subZone">
+  <ul>
+    <!--若無資料加上noData-->
+    <li class="fundList">
+      @@if(name === 'betH') {
+        <div class="lobbyBtns">
+          <div class="btnM chooseBtn">모든 게임</div>
+          <div class="btnM">아시아게임</div>
+          <div class="btnM">올벳</div>
+          <div class="btnM">에볼루션</div>
+          <div class="btnM">오리엔탈</div>
+          <div class="btnM">더블유엠</div>
+          <div class="btnM">프래그마틱</div>
+          <div class="btnM">에볼루션</div>
+          <div class="btnM">오리엔탈</div>
+          <div class="btnM">더블유엠</div>
+          <div class="btnM">프래그마틱</div>
+          <div class="btnM">오리엔탈</div>
+          <div class="btnM">더블유엠</div>
+          <div class="btnM">프래그마틱</div>
+        </div>
+        <div class="lobbyBtns">
+          <div class="btnM">아시아게임</div>
+          <div class="btnM">올벳</div>
+          <div class="btnM">에볼루션</div>
+          <div class="btnM">오리엔탈</div>
+          <div class="btnM">더블유엠</div>
+          <div class="btnM">프래그마틱</div>
+        </div>
+      }
+      <div class="editMessage">
+        <div class="frame"><span class="icon-icconMailCheck01"></span></div>
+        <div class="frame"><span class="icon-icconMailDelete godeleteMail"></span></div>
+      </div>
+      <div class="listZone listZone01">
+        <table>
+          <tbody>
+            @@if (name === 'betH') {
+              @@include('./table/table_column_title.html', {
+                context: {
+                  arr: ['번호','배팅시간','배팅번호','제품사','게임유형','배팅금액','당첨 / 미당첨','당첨금액','게임결과']
+                }
+              })
+              @@include('./table/table_column_list.html', {
+                name: "betH"
+              })
+            }
+            @@if (name === 'balanceH') {
+              @@include('./table/table_column_title.html', {
+                context: { 
+                  arr: ['거래 시간','거래 ID','거래 유형','양','최종 균형','메모']
+                }
+              })
+              @@include('./table/table_column_list.html', {
+                name: "balanceH"
+              })
+            }
+          </tbody>
+        </table>
+      </div>
+      <div class="pager_block">
+        <div class="page-list">
+          <ul class="pagination">
+            <li class="first">
+              <a href="#">
+                <span>처음</span>
+              </a>
+            </li>
+            <li class="prev">
+              <a href="#">
+                <span>이전</span>
+              </a>
+            </li>
+            <li class="pages">
+              <a href="#">
+                <span>1</span>
+              </a>
+            </li>
+            <li class="pages">
+              <a href="#">
+                <span>2</span>
+              </a>
+            </li>
+            <li class="pages">
+              <a href="#">
+                <span>3</span>
+              </a>
+            </li>
+            <li class="pages">
+              <a class="on" href="#">
+                <span>4</span>
+              </a>
+            </li>
+            <li class="pages">
+              <a href="#">
+                <span>5</span>
+              </a>
+            </li>
+            <li class="pages">
+              <a href="#">
+                <span>6</span>
+              </a>
+            </li>
+            <li class="pages">
+              <a href="#">
+                <span>7</span>
+              </a>
+            </li>
+            <li class="next">
+              <a href="#">
+                <span>다음</span>
+              </a>
+            </li>
+            <li class="last">
+              <a href="#">
+                <span>끝</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="noDataFrame">
+        <div class="pic"><img src="../Content/Views/Shared/images/common/noData.png">
+        </div>
+        <h2>데이터 없음</h2>
+        <h3>Sorry, Check no data</h3>
+      </div>
+    </li>
+  </ul>
+</div>

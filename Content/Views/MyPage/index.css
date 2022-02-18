@@ -1,0 +1,187 @@
+/*my_start*/
+.myFrame {
+	padding-bottom: 0px;
+}
+
+.myFrame .listZone table {
+	border-top: 3px solid var(--bdColor061);
+	border-bottom: 2px solid var(--bdColor061);
+}
+
+.myFrame tr {
+	background-color: var(--bgColor017) !important;
+}
+
+.myFrame td.subject {
+	width: 220px;
+	background-color: var(--bgColor044);
+	font-weight: bold;
+	color: var(--txtColor94) !important;
+	vertical-align: middle;
+}
+
+.myFrame .btnZone {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.myFrame .btnZone a {
+	height: 40px;
+	padding: 0px 47px;
+	color: var(--txtColor02);
+	background-color: var(--btnColor033);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	float: right;
+	margin-top: 23px;
+	cursor: pointer;
+	border: 0px;
+	transition: .2s ease-out;
+}
+
+.myFrame .btnZone a:hover {
+	background-color: var(--btnColor033_h);
+}
+
+.listZoneA td {
+	/* border: 1px solid var(--bdColor038) !important; */
+}
+
+.noticeFrame .listZone .input_content {
+	width: 36%;
+	height: 40px;
+	padding-left: 11px;
+	background-repeat: no-repeat;
+	background-position: 10px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	position: relative;
+	color: var(--txtColor010);
+	background-color: var(--bgColor017);
+	border: 1px solid var(--bdColor03) !important;
+}
+
+.noticeFrame .listZone .input_content:active,
+.noticeFrame .listZone .input_content:focus,
+.noticeFrame .listZone .input_content:focus-within,
+.noticeFrame .listZone .input_content:target {
+	border: 1px solid var(--bdColor064) !important;
+}
+
+.noticeFrame .listZone .input_content input {
+	border-bottom: none !important;
+}
+
+.noticeFrame .listZone .input_content input:focus {
+	border-bottom: none !important;
+	box-shadow: none !important;
+}
+
+.noticeFrame .listZone .input_content input::placeholder {
+	color: var(--txtColor36);
+	font-size: 14px;
+}
+
+.noticeFrame .listZone .inputFrame {
+	display: flex;
+	margin-bottom: 5px;
+}
+
+.noticeFrame .listZone .inputFrame .info {
+	display: flex;
+	align-items: center;
+	width: 35%;
+}
+
+.noticeFrame .listZone .inputFrame .info .icon {
+	width: 28px;
+	height: 28px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 8px;
+	background: var(--bgColor010);
+}
+
+.noticeFrame .listZone .inputFrame .info .icon span {
+	color: var(--txtColor17);
+}
+
+.noticeFrame .listZone .hint {
+	margin-top: 12px;
+}
+
+.noticeFrame .listZone .hint01 {
+	margin-top: -10px;
+	margin-left: -11px;
+}
+
+.noticeFrame .listZone .hint02 {
+	margin-top: 12px;
+	margin-left: 1px;
+}
+
+.noticeFrame .listZone .hint span {
+	display: block;
+	float: left;
+	margin-right: 6px;
+	color: var(--btnColor024);
+}
+
+.noticeFrame .listZone .hint .txt {
+	color: var(--btnColor024);
+}
+
+.noticeFrame .listZone .input_content select {
+	display: block;
+	border: none;
+	background: none !important;
+	padding: 0px;
+	height: 40px;
+}
+
+.noticeFrame .listZone .input_content select:focus {
+	outline: 0px;
+}
+
+.noticeFrame .listZone .input_content a.regBtn {
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	font-size: 15px;
+	position: absolute;
+	right: 2px;
+	border-radius: 3px;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 0px 14px;
+	font-weight: bold;
+	background: var(--btnColor034);
+	color: var(--txtColor02);
+	cursor: pointer;
+	transition: .4s ease-out;
+}
+
+.noticeFrame .listZone .input_content a.regBtn:hover {
+	background: var(--btnColor034_h);
+}
+
+.noticeFrame .listZone .selectUse {
+	margin-top: 13px;
+}
+
+.noticeFrame .listZone span.hint {
+	color: var(--txtColor32);
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 14px;
+	display: block;
+}
+
+/*my_end*/

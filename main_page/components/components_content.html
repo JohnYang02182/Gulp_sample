@@ -1,0 +1,23 @@
+<div class="contents">
+  <div class="main_content_continer">
+    @@include('./components_content_header.html')
+    @@if (name === 'balanceH') {
+      @@include('./components_content_frame.html', {
+        name: "balanceH",
+        context: {
+          name: "balanceH"
+        }
+      })
+    }
+    @@if (name === 'betH') {
+      @@include('./components_content_frame.html', {
+        name: "betH",
+        context: {
+          name: "betH"
+        }
+      })
+    }
+    @@include('./components_footer.html')
+    @@include('./popup/components_popup.html')
+  </div>
+</div>

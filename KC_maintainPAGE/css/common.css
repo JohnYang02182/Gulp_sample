@@ -1,0 +1,360 @@
+@charset "UTF-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.show {
+	display: block !important;
+}
+
+.hide {
+	display: none !important;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	margin: 0px;
+	top: 0px;
+	background-color: var(--main);
+	overflow-x: hidden;
+	overflow: visible;
+	font-size: 14px;
+	font-family: NotoSansCJKkr,
+		sans-serif;
+}
+
+/*main_content_start*/
+.main_content {
+	background-color: var(--main);
+	/* min-width: 1346px; */
+	float: left;
+	width: 100%;
+	padding-bottom: 85px;
+}
+
+.main_content_wrap {
+	width: 90%;
+	margin: 0 auto;
+	height: auto;
+}
+
+.allContent {
+	/* display: flex; */
+}
+
+.rightContent {
+	height: auto;
+	overflow: hidden;
+	padding-left: 250px;
+	animation: leftIn .5s;
+}
+
+.rightContent .contents {
+	height: auto;
+	float: right;
+	position: relative;
+	width: 100%;
+}
+
+.al {
+	text-align: left;
+}
+
+.ac {
+	text-align: center;
+}
+
+.ar {
+	text-align: right;
+}
+
+.greenBtn {
+	background-color: var(--btnColor027);
+	color: var(--txtColor02);
+	transition: .4s ease-out;
+	cursor: pointer;
+}
+
+.greenBtn:hover,
+.greenBtn:focus {
+	background-color: var(--btnColor027_h);
+}
+
+.redBtn {
+	background-color: var(--btnColor024);
+	color: var(--txtColor02);
+	transition: .4s ease-out;
+	cursor: pointer;
+}
+
+.redBtn:hover,
+.redBtn:focus {
+	background-color: var(--btnColor024_h);
+}
+
+.blueLBtn {
+	background-color: var(--btnColor025);
+	color: var(--txtColor02);
+	transition: .4s ease-out;
+	cursor: pointer;
+}
+
+.blueLBtn:hover,
+.blueLBtn:focus {
+	background-color: var(--btnColor025_h);
+}
+
+.disableBtn {
+	background-color: var(--btnColor031) !important;
+	color: var(--txtColor02);
+	transition: .4s ease-out;
+}
+
+.brownTXT {
+	color: var(--txtColor78);
+}
+
+.redTXT {
+	color: var(--txtColor84);
+}
+
+/*noData共用_start*/
+.noDataFrame {
+	display: none;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	padding: 70px;
+}
+
+.noDataFrame .pic {}
+
+.noDataFrame .pic img {}
+
+.noDataFrame h2 {
+	color: var(--txtColor66);
+	font-family: 'ko-regular' !important;
+	font-size: 36px;
+	margin-top: 17px;
+}
+
+.noDataFrame h3 {
+	color: var(--txtColor79);
+	font-family: 'ko-regular' !important;
+	font-size: 24px;
+	margin-top: 8px;
+}
+
+.noDataFrame h4 {
+	color: var(--txtColor66);
+	font-family: 'ko-regular' !important;
+	font-size: 24px;
+	margin-top: 17px;
+}
+
+.noData .listZone,
+.noData .pager_block {
+	display: none !important;
+}
+
+.noData .noDataFrame {
+	display: flex !important;
+}
+
+/*withdrawUseUse*/
+.noData .fundFrame {
+	display: none !important;
+}
+
+/*noData共用_end*/
+
+
+@keyframes leftIn {
+	0% {
+		-webkit-transform: translateX(20%);
+		-moz-transform: translateX(20%);
+		-o-transform: translateX(20%);
+		transform: translateX(20%);
+		opacity: 0
+	}
+
+	to {
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-o-transform: translateX(0);
+		transform: translateX(0);
+		opacity: 1
+	}
+}
+
+/*@font-face_start*/
+@font-face {
+	font-family: engUse;
+	src: url(../fonts/HelveticaNeueLTPro-BdCn.otf);
+}
+
+@font-face {
+	font-family: ko-black;
+	src: url(../fonts/NotoSansCJKkr-Black.otf);
+}
+
+@font-face {
+	font-family: ko-bold;
+	src: url(../fonts/NotoSansCJKkr-Bold.otf);
+}
+
+@font-face {
+	font-family: ko-regular;
+	src: url(../fonts/NotoSansCJKkr-Regular.otf);
+}
+
+@font-face {
+	font-family: ko;
+	src: url(../fonts/NotoSansCJKkr-Medium.otf);
+}
+
+@font-face {
+	font-family: onyx;
+	src: url(../fonts/ONYX.TTF);
+}
+
+/*@font-face_end*/

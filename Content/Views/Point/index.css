@@ -1,0 +1,48 @@
+/*point_start*/
+.fundFrame .listPoint01 tr:hover {
+  background-color: var(--bgColor017) !important;
+}
+
+.myFrame .listZone table {
+  border-top: 3px solid var(--bdColor061);
+  border-bottom: 2px solid var(--bdColor061);
+}
+
+.myFrame .listZone table {
+  border-top: 3px solid var(--bdColor061);
+  border-bottom: 2px solid var(--bdColor061);
+}
+
+.myFrame .listPoint02 table {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.myFrame .listPoint01 td.subject {
+  color: var(--txtColor66) !important;
+  font-weight: 100;
+}
+
+.main_content_wrap_notice .listZone table tr td .btnP {
+  color: var(--bdColor058);
+  padding: 8px;
+  border-radius: 5px;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.main_content_wrap_notice .listZone table tr td.fB {
+  display: flex;
+  align-items: center;
+}
+
+.myFrame .listPoint02 .title {
+  color: var(--txtColor75);
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/*point_end*/

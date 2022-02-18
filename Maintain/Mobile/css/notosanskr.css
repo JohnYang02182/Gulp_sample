@@ -1,0 +1,73 @@
+﻿@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 100;
+    src: url(./fonts/Thin/notosanskr-thin.eot);
+    src: url(./fonts/Thin/notosanskr-thin.eot) format('embedded-opentype'),
+        url(./fonts/Thin/notosanskr-thin.woff2) format('woff2'),
+        url(./fonts/Thin/notosanskr-thin.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 200;
+    src: url(./fonts/Light/Light/notosanskr-light.eot);
+    src: url(./fonts/Light/notosanskr-light.eot) format('embedded-opentype'),
+        url(./fonts/Light/notosanskr-light.woff2) format('woff2'),
+        url(./fonts/Light/notosanskr-light.woff) format('woff')
+}
+
+
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 300;
+    src: url(./fonts/DemiLight/notosanskr-demilight.eot);
+    src: url(./fonts/DemiLight/notosanskr-demilight.eot) format('embedded-opentype'),
+        url(./fonts/DemiLight/notosanskr-demilight.woff2) format('woff2'),
+        url(./fonts/DemiLight/notosanskr-demilight.woff) format('woff');
+}
+
+
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./fonts/Regular/notosanskr-regular.eot);
+    src: url(./fonts/Regular/notosanskr-regular.eot) format('embedded-opentype'),
+        url(./fonts/Regular/notosanskr-regular.woff2) format('woff2'),
+        url(./fonts/Regular/notosanskr-regular.woff) format('woff')
+}
+
+
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 600;
+    src: url(./fonts/Medium/notosanskr-medium.eot);
+    src: url(./fonts/Medium/notosanskr-medium.eot) format('embedded-opentype'),
+        url(./fonts/Medium/notosanskr-medium.woff2) format('woff2'),
+        url(./fonts/Medium/notosanskr-medium.woff) format('woff')
+}
+
+
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 700;
+    src: url(./fonts/Bold/NotoSansKR-Bold.eot);
+    src: url(./fonts/Bold/notosanskr-bold.eot) format('embedded-opentype'),
+        url(./fonts/Bold/notosanskr-bold.woff2) format('woff2'),
+        url(./fonts/Bold/notosanskr-bold.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 900;
+    src: url(./fonts/Black/NotoSansKR-Black.eot);
+    src: url(./fonts/Black/notosanskr-black.eot) format('embedded-opentype'),
+        url(./fonts/Black/notosanskr-black.woff2) format('woff2'),
+        url(./fonts/Black/notosanskr-black.woff) format('woff')
+}

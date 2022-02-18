@@ -1,0 +1,562 @@
+/*leftMenu*/
+.LeftContent {
+	background-color: var(--bgColor017);
+	box-shadow: var(--shadow07) 0em 0em 0.6em;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 250px;
+	z-index: 14;
+	top: 0px;
+	float: left;
+	bottom: 0px;
+	padding: 29px 0px 0px 0px;
+	position: fixed;
+	transition: .25s ease-out;
+}
+
+.LeftContent h1 {}
+
+.LeftContent .logo {
+	margin-bottom: 22px;
+}
+
+.LeftContent .logo a {
+	background-image: url(../Shared/images/common/logo01.svg);
+	background-repeat: no-repeat;
+	width: 215px;
+	height: 45px;
+	display: block;
+}
+
+.scrollFrame {
+	width: 100%;
+	margin: 0 auto;
+	/* overflow-y: auto; */
+}
+
+.scrollFrame::-webkit-scrollbar-track {
+	background-color: var(--bgColor017);
+}
+
+.scrollFrame::-webkit-scrollbar {
+	width: 3px;
+}
+
+.scrollFrame::-webkit-scrollbar-thumb {
+	background-color: var(--bgColor017);
+}
+
+/*leftMenu*/
+.LeftContent .leftMenu {
+	width: 82%;
+	border: 1px solid var(--bdColor038);
+	background-color: var(--bgColor070);
+	border-radius: 10px;
+	box-shadow: 2px 4px 5px 1px rgb(167 181 204 / 35%), inset 0px 0px 6px 1px rgb(255 255 255 / 75%);
+	padding: 17px;
+	margin-top: 25px;
+	margin: 0 auto;
+	margin-bottom: 19px;
+}
+
+.LeftContent .leftMenu ul {
+	width: 89%;
+	margin: 0 auto;
+}
+
+.LeftContent .leftMenu ul li {
+	padding: 9px 3px;
+	border-bottom: 1px solid var(--bdColor040);
+	position: relative;
+}
+
+.LeftContent .leftMenu ul li .newHint {
+	clip-path: polygon(26% 0%, 100% 0%, 100% 100%, 26% 100%, 0% 50%);
+	background-color: var(--bgColor114);
+	color: var(--txtColor02);
+	font-size: 12px;
+	padding: 6px 6px 6px 11px;
+	position: absolute;
+	right: 0px;
+	top: 8px;
+	box-shadow: var(--shadow07) 0em 0em 0.6em;
+}
+
+.LeftContent .leftMenu ul li a {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	cursor: pointer;
+}
+
+.LeftContent .leftMenu ul li a span {
+	color: var(--txtColor66);
+	font-size: 21px;
+	margin-right: 25px;
+	/*transition: .2s ease-out;*/
+}
+
+.LeftContent .leftMenu ul li a .hovePic {
+	position: absolute;
+	display: none;
+	transition: .4s ease-out;
+}
+
+.LeftContent .leftMenu ul li.menu01 a .hovePic {
+	top: -5px;
+	left: -12px;
+}
+
+.LeftContent .leftMenu ul li.menu02 a .hovePic {
+	top: -7px;
+	left: -19px;
+}
+
+.LeftContent .leftMenu ul li.menu03 a .hovePic {
+	top: -4px;
+	left: -13px;
+}
+
+.LeftContent .leftMenu ul li.menu04 a .hovePic {
+	top: -3px;
+	left: -12px;
+}
+
+.LeftContent .leftMenu ul li.menu05 a .hovePic {
+	top: 1px;
+	left: -12px;
+}
+
+.LeftContent .leftMenu ul li.menu06 a .hovePic {
+	top: -4px;
+	left: -14px;
+}
+
+.LeftContent .leftMenu ul li a:hover .hovePic,
+.LeftContent .leftMenu ul li a.active .hovePic {
+	display: block;
+}
+
+.LeftContent .leftMenu ul li a:hover span,
+.LeftContent .leftMenu ul li a.active span {
+	color: var(--txtColor67);
+	opacity: 0;
+}
+
+.LeftContent .leftMenu01 ul li a:hover span,
+.LeftContent .leftMenu01 ul li a.active span {
+	color: var(--txtColor70);
+	opacity: 1 !important;
+	transform: rotate(-45deg) translate3d(0px, 0px, 0px);
+}
+
+.LeftContent .leftMenu ul li a span.icon-iiconDice {
+	font-size: 23px;
+}
+
+.LeftContent .leftMenu ul li a span.icon-iiconSlote {
+	font-size: 26px;
+}
+
+.LeftContent .leftMenu ul li a span.icon-iiconGame {
+	font-size: 26px;
+}
+
+.LeftContent .leftMenu ul li a span.icon-iiconPoker {
+	font-size: 26px;
+}
+
+.LeftContent .leftMenu ul li a span.icon-icconVR {
+	font-size: 26px;
+}
+
+.LeftContent .leftMenu ul li a span.icon-iiconSpeaker {
+	font-size: 24px;
+}
+
+.LeftContent .leftMenu ul li a span.icon-iiconRing {
+	font-size: 24px;
+}
+
+.LeftContent .leftMenu ul li a span.icon-iiconPolicy {
+	font-size: 24px;
+}
+
+.LeftContent .leftMenu ul li a span.icon-iiconGood {
+	font-size: 24px;
+}
+
+.LeftContent .leftMenu ul li a span.icon-iiconMail {
+	font-size: 24px;
+}
+
+.LeftContent .leftMenu ul li a span.icon-iiconMember {
+	font-size: 24px;
+}
+
+.LeftContent .leftMenu ul li a span.icon-iiconDeposit {
+	font-size: 24px;
+}
+
+.LeftContent .leftMenu ul li a span.icon-iiconWithdraw {
+	font-size: 24px;
+}
+
+.LeftContent .leftMenu ul li a span.icon-iiconListA {
+	font-size: 24px;
+}
+
+.LeftContent .leftMenu ul li a span.icon-iiconListB {
+	font-size: 24px;
+}
+
+.LeftContent .leftMenu ul li a span.icon-iiconService {
+	font-size: 24px;
+}
+
+.LeftContent .leftMenu ul li a .txt {
+	color: var(--txtColor66);
+	font-size: 13px;
+	font-weight: bold;
+	transition: .3s ease-out;
+}
+
+.LeftContent .leftMenu ul li a:hover .txt,
+.LeftContent .leftMenu ul li a.active .txt {
+	color: var(--txtColor70);
+}
+
+.LeftContent .leftMenu ul li a .txt span {
+	font-size: 14px;
+	margin: 0px;
+	color: var(--txtColor69);
+	font-weight: bold;
+}
+
+/*leftFund*/
+.LeftContent .fundZoneA {
+	width: 85%;
+	border: 1px solid var(--bdColor038);
+	background-color: var(--bgColor070);
+	border-radius: 10px;
+	box-shadow: 2px 4px 5px 1px rgb(167 181 204 / 35%), inset 0px 0px 6px 1px rgb(255 255 255 / 75%);
+	padding: 0px 0px 23px 0px;
+	margin-top: 25px;
+	margin: 0 auto;
+	margin-bottom: 19px;
+	display: none;
+}
+
+.LeftContent .fundZoneA .tabZone {
+	width: 100%;
+}
+
+.LeftContent .fundZoneA .tabZone ul {
+	width: 100.7%;
+	height: 40px;
+}
+
+.LeftContent .fundZoneA .tabZone ul li {
+	width: 50%;
+	height: 40px;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--bgColor071);
+	color: var(--txtColor02);
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .3s ease-out;
+}
+
+.LeftContent .fundZoneA .tabZone ul li.active {
+	background-color: var(--bgColor072);
+}
+
+.LeftContent .fundZoneA .tabZone ul li:first-child {
+	border-radius: 9px 0px 0px 0px;
+}
+
+.LeftContent .fundZoneA .tabZone ul li:last-child {
+	border-radius: 0px 9px 0px 0px;
+}
+
+.LeftContent .fundZoneA .tabZone ul li:hover {
+	background-color: var(--bgColor072);
+}
+
+.LeftContent .fundZoneA .contentZone {}
+
+.LeftContent .fundZoneA .contentZone ul {}
+
+.LeftContent .fundZoneA .contentZone ul li {}
+
+.LeftContent .fundZoneA .contentZone ul li table {
+	width: 97%;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.LeftContent .fundZoneA .contentZone ul li table tr {}
+
+.LeftContent .fundZoneA .contentZone ul li table tr td {
+	padding: 10px 3px;
+	font-size: 12px;
+	color: var(--txtColor66);
+}
+
+.LeftContent .fundZoneA .contentZone ul li table tr td span {
+	color: var(--txtColor70);
+}
+
+.LeftContent .fundZoneA .contentZone ul li:nth-child(2) {
+	display: none;
+}
+
+.LeftContent .serviceZone {
+	display: none;
+	width: 85%;
+	padding-bottom: 92%;
+	border-radius: 10px;
+	background-image: url(../Shared/images/common/adl04.png);
+	background-size: cover;
+	margin-top: 25px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.LeftContent .serviceZone .txt01 {
+	position: absolute;
+	left: 13px;
+	top: 18px;
+	color: var(--txtColor66);
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.LeftContent .serviceZone .txt02 {
+	position: absolute;
+	bottom: 29px;
+	left: 13px;
+	color: var(--txtColor66);
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/*leftMenu 縮小用_start*/
+.zoomIN {
+	width: 80px;
+}
+
+.zoomIN .logo {
+	margin-bottom: 0px;
+}
+
+.zoomIN .logo a {
+	background-image: url(../Shared/images/common/logo02.svg);
+	background-repeat: no-repeat;
+	width: 43px;
+	height: 48px;
+	display: block;
+}
+
+.zoomIN .leftMenu ul li a .txt {
+	display: none;
+}
+
+.zoomIN .leftMenu {
+	border: 0px;
+	background-color: var(--bgColor017);
+	box-shadow: none;
+	padding: 17px 23px 3px 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.zoomIN .leftMenu ul li {
+	border-bottom: none;
+}
+
+.zoomIN .fundZoneA,
+.zoomIN .serviceZone {
+	display: none;
+}
+
+.zoomIN .leftMenu01 {
+	margin-top: 10px;
+	position: relative;
+}
+
+.zoomIN .leftMenu01::after {
+	content: "";
+	width: 38px;
+	height: 1px;
+	background-color: var(--bdColor038);
+	position: absolute;
+	top: 0px;
+}
+
+/*leftMenu 縮小用_end*/
+
+/*leftMenu 放大用_start*/
+.zoomOUT {
+	width: 250px !important;
+}
+
+.zoomOUT .logo {
+	margin-bottom: 22px !important;
+}
+
+.zoomOUT .leftMenu ul li a .txt {
+	display: block !important;
+}
+
+.zoomOUT .leftMenu ul li .newHint {
+	display: block !important;
+}
+
+.zoomOUT .leftMenu {
+	width: 82% !important;
+	border: 1px solid var(--bdColor038) !important;
+	background-color: var(--bgColor070) !important;
+	border-radius: 10px !important;
+	box-shadow: 2px 4px 5px 1px rgb(167 181 204 / 35%),
+		inset 0px 0px 6px 1px rgb(255 255 255 / 75%) !important;
+	padding: 17px !important;
+	margin-top: 25px !important;
+	margin: 0 auto !important;
+	margin-bottom: 19px !important;
+}
+
+.zoomOUT .leftMenu ul li {
+	padding: 9px 3px !important;
+	border-bottom: 1px solid var(--bdColor040) !important;
+	position: relative !important;
+}
+
+.zoomOUT .fundZoneA,
+.zoomOUT .serviceZone {
+	display: none !important;
+}
+
+.zoomOUT .leftMenu01 {
+	width: 82% !important;
+	border: 1px solid var(--bdColor038) !important;
+	background-color: var(--bgColor070) !important;
+	border-radius: 10px !important;
+	box-shadow: 2px 4px 5px 1px rgb(167 181 204 / 35%),
+		inset 0px 0px 6px 1px rgb(255 255 255 / 75%) !important;
+	padding: 17px !important;
+	margin-top: 25px !important;
+	margin: 0 auto !important;
+	margin-bottom: 19px !important;
+}
+
+.zoomOUT .leftMenu01::after {
+	display: none !important;
+}
+
+.zoomOUT .scrollFrame {
+	width: 100%;
+	margin: 0 auto;
+	overflow-y: auto !important;
+}
+
+.zoomOUT .logo a {
+	background-image: url(../Shared/images/common/logo01.svg) !important;
+	background-repeat: no-repeat;
+	width: 215px !important;
+	height: 45px !important;
+	display: block;
+	animation: menuLOGO .4s;
+	animation-delay: .05s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+@keyframes menuLOGO {
+	0% {
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
+		opacity: 0
+	}
+
+	to {
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-o-transform: translateX(0);
+		transform: translateX(0);
+		opacity: 1
+	}
+}
+
+/*leftMenu zoomOUT_end*/
+
+/*rwd*/
+@media (max-width:1900px) {
+	.LeftContent {
+		width: 80px;
+	}
+
+	.LeftContent .logo {
+		margin-bottom: 0px;
+	}
+
+	.LeftContent .logo a {
+		background-image: url(../Shared/images/common/logo02.svg);
+		background-repeat: no-repeat;
+		width: 43px;
+		height: 48px;
+		display: block;
+	}
+
+	.LeftContent .leftMenu ul li .newHint {
+		display: none;
+	}
+
+	.LeftContent .leftMenu ul li a .txt {
+		display: none;
+	}
+
+	.LeftContent .leftMenu {
+		border: 0px;
+		background-color: var(--bgColor017);
+		box-shadow: none;
+		padding: 17px 23px 3px 16px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.LeftContent .leftMenu01 {
+		margin-top: 10px;
+		position: relative;
+	}
+
+	.LeftContent .leftMenu01::after {
+		content: "";
+		width: 38px;
+		height: 1px;
+		background-color: var(--bdColor038);
+		position: absolute;
+		top: 0px;
+	}
+
+	.LeftContent .leftMenu ul li {
+		border-bottom: none;
+	}
+
+	.LeftContent .fundZoneA,
+	.LeftContent .serviceZone {
+		display: none;
+	}
+
+	.rightContent {
+		padding-left: 80px;
+	}
+}

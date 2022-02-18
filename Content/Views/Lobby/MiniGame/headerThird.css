@@ -1,0 +1,237 @@
+/*header*/
+.headerThird {
+	box-shadow: var(--shadow07) 0em 0em 0.6em;
+	height: 80px;
+	width: 100%;
+	background-color: var(--bgColor088);
+}
+
+.headerThird .headerWrapper {
+	width: 95%;
+	height: 80px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.headerThird .headerWrapper .left {}
+
+.headerThird .headerWrapper .logo {}
+
+.headerThird .headerWrapper .logo a {}
+
+.headerThird .headerWrapper .logo a img {
+	width: 224px;
+}
+
+.headerThird .headerWrapper .rightZone {
+	width: 25%;
+	display: flex;
+	justify-content: flex-end;
+	position: absolute;
+	right: 22px;
+	top: 17px;
+}
+
+.headerThird .headerWrapper .rightZone .moneyZone {
+	display: flex;
+	align-items: center;
+	padding-right: 16px;
+	position: relative;
+	cursor: pointer;
+}
+
+.headerThird .headerWrapper .rightZone .moneyZone::after {
+	content: "";
+	position: absolute;
+	right: 0px;
+	top: 9px;
+	width: 1px;
+	height: 32px;
+	background: var(--bgColor086);
+	background: linear-gradient(180deg, var(--bgColor086_g01) 0%, var(--bgColor086_g02) 50%, var(--bgColor086_g03) 100%);
+}
+
+.headerThird .headerWrapper .rightZone .moneyZone span {
+	color: var(--txtColor70);
+	font-size: 24px;
+	margin-right: 10px;
+}
+
+.headerThird .headerWrapper .rightZone .moneyZone h4 {
+	color: var(--txtColor66);
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.headerThird .headerWrapper .rightZone .moneyZone span.icon-icconLOAD {
+	color: var(--txtColor66);
+	font-size: 19px;
+	margin-right: 0px;
+	margin-left: 8px;
+	transition: .4s ease-out;
+}
+
+.headerThird .headerWrapper .rightZone .moneyZone span.icon-icconLOAD:hover {
+	color: var(--txtColor66_h);
+}
+
+.headerThird .headerWrapper .rightZone .memberZone {
+	display: flex;
+	align-items: center;
+	padding-left: 16px;
+	cursor: pointer;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone h4 {
+	color: var(--txtColor66);
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	margin-left: 10px;
+	position: relative;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .picFrame {
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .picFrame img {
+	width: 32px;
+	height: auto;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .dot {
+	width: 10px;
+	height: 10px;
+	background-color: var(--bgColor087);
+	position: absolute;
+	z-index: 9;
+	top: 0px;
+	border-radius: 50%;
+	right: 0px;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .memHover {
+	width: 419px;
+	height: 259px;
+	position: absolute;
+	right: -8px;
+	top: 64px;
+	border: 1px solid var(--bdColor047);
+	background-color: var(--bdColor039);
+	box-shadow: 2px 4px 5px 1px rgb(167 181 204 / 35%), inset 0px 0px 6px 1px rgb(255 255 255 / 75%);
+	display: none;
+	z-index: 3;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .memHover::before {
+	content: "";
+	background-image: url(../../Shared/images/common/triangle.png);
+	width: 46px;
+	height: 35px;
+	position: absolute;
+	right: -1px;
+	top: -35px;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .memHover .memWrapper {
+	margin: 0 auto;
+	padding: 30px 27px;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .memHover .name {
+	color: var(--txtColor66);
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .memHover .shortCart {
+	margin-top: 34px;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .memHover .shortCart ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .memHover .shortCart ul li {}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .memHover .shortCart ul li a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .memHover .shortCart ul li .icon {
+	width: 52px;
+	height: 52px;
+	background-color: var(--btnColor025);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: .4s ease-out;
+	position: relative;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .memHover .shortCart ul li:hover .icon {
+	background-color: var(--btnColor026_h);
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .memHover .shortCart ul li .icon span {
+	color: var(--txtColor02);
+	font-size: 22px;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .memHover .shortCart ul li .icon .iconDot {
+	width: 10px;
+	height: 10px;
+	background-color: var(--bgColor087);
+	position: absolute;
+	z-index: 9;
+	top: 4px;
+	border-radius: 50%;
+	right: 1px;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .memHover .shortCart ul li .txt {
+	color: var(--txtColor66);
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .memHover .btnM {
+	width: 100%;
+	padding: 13px;
+	background-color: var(--btnColor027);
+	color: var(--txtColor02);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+	border-radius: 20px;
+	margin-top: 20px;
+	transition: .4s ease-out;
+}
+
+.headerThird .headerWrapper .rightZone .memberZone .pic .memHover .btnM:hover {
+	background-color: var(--btnColor027_h);
+}
+
+/*successUse_end*/

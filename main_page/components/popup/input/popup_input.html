@@ -1,0 +1,41 @@
+<div class="inputFrame">
+  @@if (title.isShow === true){
+    <div class="txtT">@@title.content</div>
+  }
+  <div class="input_content">
+    <input class= ""+@@inputClassName+"txtColor010 bgColor09 bdColor03" type="text" placeholder="아이디">
+    @@if (check === true){
+      <div class="check"><span class="icon-iconCheck"></span></div>
+    }
+    @@if (hink.isShow === true){
+      <div class="hint"><span class="icon-icconHint"></span>
+        <div class="txt">@@hink.content</div>
+      </div>
+    }
+  </div>
+</div>
+
+<div class="inputFrame">
+  <div class="info">
+    <span class="icon-icconMan ficon"></span>
+    <div class="txt">계좌주<span>*</span></div>
+  </div>
+  <div class="input_content">
+    <input type="text" placeholder="계좌주 변경이 불가능 합니다">
+    <div class="checkUse"><span class="icon-icconCHECK"></span></div>
+  </div>
+</div>
+
+<div class="inputFrame">
+  <div class="info">
+    <span class="icon-icconPC ficon"></span>
+    <div class="txt">계좌번호<span>*</span></div>
+  </div>
+  <div class="input_content">
+    <input type="text" placeholder="계좌 번호를 입력 해주세요">
+    <div class="hint"><span class="icon-icconHint"></span>
+      <div class="txt">은행의 계좌가 이미 사용 되었습니다. 고객센터에 문의 하세요</div>
+    </div>
+    <div class="checkUse"><span class="icon-icconCHECK"></span></div>
+  </div>
+</div>

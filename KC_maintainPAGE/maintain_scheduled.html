@@ -1,0 +1,98 @@
+<!-- include Meta -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset=" UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KCASINO</title>
+  <link rel="Shortcut Icon" type="image/x-icon" href="images/ico/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <!--配合wow.js使用動畫-->
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+  <!--叫進符號字型_style.css + font資料夾-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!--倒數css-->
+  <link rel="stylesheet" type="text/css" href="css/jquery.countdown_index.css">
+  <link rel="stylesheet" type="text/css" href="css/color.css">
+  <link rel="stylesheet" type="text/css" href="css/maintain_scheduled.css">
+
+  <!--[if lt IE 9]>
+	  <link rel="stylesheet" href="css/ie8.css">
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+  <div class="header">
+    <div class="headerWrapper"><a class="logo" href="index.html"><img src="images/common/logo01.svg"></a></div>
+  </div>
+  <div class="content">
+    <div class="contentWrapper">
+      <div class="txtZone">
+        <div class="countDown">
+          <div id="countdown"></div>
+        </div>
+        <div class="txtInner">
+          <h1>시스템 점검 중입니다</h1>
+          <h2>조속히 작업을 완료하겠습니다 불편을 드려 죄송합니다.</h2>
+        </div>
+        <a class="btn goldLBtn">고객 서비스에 문의</a>
+      </div>
+      <div class="picZone"><img src="images/maintain/repair.png"></div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <!--倒數js-->
+  <script type="text/javascript" src="js/jquery.countdown.js"></script>
+  <!--webP-->
+  <script type="text/javascript" src="js/modernizr-custom.js"></script>
+  <!--倒數js-->
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $('#timer').timezz({
+        'days': ' days,',
+        'hours': ' hours,',
+        'minutes': ' minutes,',
+        'seconds': ' seconds'
+      });
+      $('#timer2').timezz({
+        'date': 'Jan 1, 2018',
+        'tagNumber': 'b',
+        'tagLetter': 'span'
+      });
+      $('#timer3').timezz({
+        'date': 'Jan 1, 2018',
+        'tagNumber': 'b',
+        'tagLetter': 'span'
+      });
+
+      $('#timer4').timezz({
+        'date': 'Jan 1, 2018',
+        'tagNumber': 'b',
+        'tagLetter': 'span'
+      });
+      $('#timer5').timezz({
+        'date': 'Jan 1, 2018',
+        'tagNumber': 'b',
+        'tagLetter': 'span'
+      });
+      $('#timer6').timezz({
+        'date': 'Jan 1, 2018',
+        'tagNumber': 'b',
+        'tagLetter': 'span'
+      });
+      $('#timer7').timezz({
+        'date': 'Jan 1, 2018',
+        'tagNumber': 'b',
+        'tagLetter': 'span'
+      });
+    })
+  </script>
+</body>
+
+</html>

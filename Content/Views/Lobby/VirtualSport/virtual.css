@@ -1,0 +1,455 @@
+.vitualPage {
+	animation: none !important;
+}
+
+.virtualZone {
+	/*background-image: url(../common/lobbyBG.png);*/
+	background-size: cover;
+	width: 100%;
+	padding-bottom: 55%;
+	transition: .4s ease-out;
+	position: relative;
+}
+
+.webp .virtualZone {
+	background-image: url(../common/lobbyBG.webp);
+}
+
+.no-webp .virtualZone {
+	background-image: url(../common/lobbyBG.png);
+}
+
+.virtualZone .virtualWrapper {
+	width: 92%;
+	height: 90%;
+	position: absolute;
+	top: 54%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.virtualZone .virtualWrapper .title {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.virtualZone .virtualWrapper .title .leftZone {
+	color: var(--txtColor71);
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 19.3vw;
+	transform: translateZ(0px);
+	margin-right: 1vw;
+}
+
+.virtualZone .virtualWrapper .title .leftZone span.icon-iiconLogoB {
+	font-size: 2.3vw;
+	margin-right: 4px;
+}
+
+.virtualZone .virtualWrapper .title .leftZone h4 {
+	font-size: 1.4vw;
+	margin-right: 0.5vw;
+}
+
+.virtualZone .virtualWrapper .title .leftZone span {
+	color: var(--txtColor65);
+	font-size: 1.4vw;
+}
+
+.virtualZone .virtualWrapper .title .line {
+	height: 2px;
+	width: 69vw;
+	background-color: var(--bgColor085);
+	position: relative;
+}
+
+.virtualZone .virtualWrapper .title .line::before {
+	content: "";
+	width: 8px;
+	height: 8px;
+	background-color: var(--bgColor085);
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	transform: translate(-50%, -50%);
+}
+
+.virtualZone .virtualWrapper .content {
+	display: flex;
+	align-items: start;
+	justify-content: space-around;
+	margin-top: 4vh;
+}
+
+.virtualZone .virtualWrapper .content .leftFrame {
+	width: 55%;
+	position: relative;
+	animation: rightIn .4s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+	min-height: 695px;
+}
+
+.virtualZone .virtualWrapper .content .leftZone {
+	background-image: url(../VirtualSport/images/virBg01.png);
+	background-size: cover;
+	width: 83%;
+	padding-bottom: 100%;
+	position: relative;
+}
+
+.virtualZone .virtualWrapper .content .leftZone .obj {
+	background-image: url(../VirtualSport/images/virBg02.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 0px;
+	padding-bottom: 128%;
+	background-size: cover;
+	position: absolute;
+}
+
+.virtualZone .virtualWrapper .content .rightZone {
+	width: 45%;
+}
+
+.virtualZone .virtualWrapper .content .rightZone .txt {
+	margin-bottom: 27px;
+	animation: topIn .4s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+.virtualZone .virtualWrapper .content .rightZone .txt h2 {
+	color: var(--txtColor72);
+	font-size: 1.5vw;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.virtualZone .virtualWrapper .content .rightZone .txt p {
+	color: var(--txtColor66);
+	line-height: 1.6;
+	font-size: 0.6vw;
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns {
+	animation: leftIn .4s;
+	/* animation-delay: .33s; */
+	animation-fill-mode: forwards;
+	opacity: 0;
+	min-height: 560px;
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul li {
+	width: 31.5%;
+	height: 121px;
+	border: 1px solid var(--bdColor038);
+	border-radius: 10px;
+	box-shadow: 2px 4px 5px 1px rgb(167 181 204 / 35%), inset 0px 0px 6px 1px rgb(255 255 255 / 75%);
+	padding-bottom: 23px;
+	margin-bottom: 21px;
+	background: var(--bgColor073);
+	background: linear-gradient(360deg, var(--bgColor074_gs) 0%, var(--bgColor074_ge) 100%);
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	margin-right: 0.6vw;
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul li .logo {
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* width: 53%; */
+	/* height: 0px; */
+	margin-top: 10px;
+	transition: .3s ease-out;
+	position: absolute;
+	z-index: 2;
+	margin: 0 auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -75%);
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul li .logo span {
+	color: var(--txtColor76);
+	font-size: 3.2vw;
+	text-shadow: 0.1em 0.1em 0.2em var(--shadow08);
+	position: relative;
+	transition: .4s ease-out;
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul li:hover .logo span {
+	color: var(--txtColor02);
+	text-shadow: 0.1em 0.1em 0.2em var(--shadow09);
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul li .txt01 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 2;
+	position: absolute;
+	bottom: 7%;
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul li .txt01 h2 {
+	font-size: 0.9vw;
+	color: var(--txtColor73);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 94%;
+	text-align: center;
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul li .txt01 span {
+	font-size: 0.4vw;
+	color: var(--txtColor73);
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul li:hover .txt01 h2,
+.virtualZone .virtualWrapper .content .rightZone .btns ul li:hover .txt01 span {
+	color: var(--txtColor02);
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul li .mask {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: var(--bgColor075);
+	background: linear-gradient(0deg, var(--bgColor076_g01) 0%, var(--bgColor076_g02) 40%, var(--bgColor076_g03) 100%);
+	border-radius: 8px;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	display: none;
+	transition: .4s ease-out;
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul li .mask .inner {
+	width: 99%;
+	height: 99%;
+	background: var(--bgColor077);
+	background: linear-gradient(180deg, var(--bgColor078_g01) 0%, var(--bgColor078_g02) 75%, var(--bgColor078_g03) 100%);
+	border-radius: 8px;
+	z-index: 1;
+	display: none;
+	transition: .4s ease-out;
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul li:hover .mask,
+.virtualZone .virtualWrapper .content .rightZone .btns ul li:hover .inner {
+	display: flex;
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul li.maintainGo .maintain {
+	display: flex;
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul li .maintain {
+	display: none;
+	background-color: var(--bgColor084);
+	border: 1px solid var(--bdColor052);
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	cursor: none;
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul li .maintain span {
+	font-size: 4vw;
+	color: var(--txtColor85);
+}
+
+.virtualZone .virtualWrapper .content .rightZone .btns ul li .maintain h4 {
+	color: var(--txtColor85);
+	font-size: 0.7vw;
+	font-weight: bold;
+	margin-top: 3%;
+}
+
+
+
+/*animation*/
+.aniLogoViru {
+	-webkit-animation: aniLogoViru 0.7s infinite;
+	animation: aniLogoViru 0.7s infinite;
+}
+
+@keyframes aniLogoViru {
+	0% {
+		font-size: 3.2vw;
+	}
+
+	50% {
+		font-size: 3.4vw;
+	}
+
+	100% {
+		font-size: 3.2vw;
+	}
+}
+
+.aniLogo01 {
+	-webkit-animation: aniLogo01 2.3s infinite;
+	animation: aniLogo01 2.3s infinite;
+}
+
+@keyframes aniLogo01 {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(0.98);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+/*rwd*/
+@media (max-width:1350px) {
+	.virtualZone .virtualWrapper .content .rightZone .btns ul li {
+		height: 105px;
+	}
+
+	.virtualZone .virtualWrapper .content .rightZone .btns ul li .txt01 span {
+		font-size: 12px;
+	}
+
+	.virtualZone .virtualWrapper .content .rightZone .txt h2 {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+
+	.virtualZone .virtualWrapper .content .rightZone .txt p {
+		/* font-size: 14px; */
+	}
+
+	.virtualZone .virtualWrapper .content .rightZone .btns ul li .logo span {
+		font-size: 4.2vw;
+	}
+}
+
+@media (max-width:1310px) {
+	.virtualZone .virtualWrapper .content .rightZone .btns ul li {
+		height: 100px;
+	}
+}
+
+@media (max-width:1270px) {
+	.virtualZone .virtualWrapper .content .rightZone .txt p {
+		font-size: 12px;
+	}
+
+	.virtualZone .virtualWrapper .content .rightZone .btns ul li {
+		height: 87px;
+		width: 22.5%;
+	}
+
+	.virtualZone .virtualWrapper .content .rightZone .btns ul li .logo span {
+		font-size: 3.6vw;
+	}
+}
+
+@media (max-width:1157px) {
+	.virtualZone .virtualWrapper .title .leftZone {
+		/* width: 18vw; */
+	}
+}
+
+
+@media (max-width:1003px) {
+	.virtualZone .virtualWrapper .content .rightZone .btns ul li {
+		height: 78px;
+		width: 23.5%;
+	}
+}
+
+@media (max-width:980px) {
+	.virtualZone .virtualWrapper .content .rightZone .btns ul li {
+		height: 72px;
+	}
+
+	.virtualZone .virtualWrapper .content .rightZone .btns ul li .txt01 h2 {
+		font-size: 0.5vw;
+	}
+}
+
+
+@keyframes leftIn {
+	0% {
+		-webkit-transform: translateX(50%);
+		-moz-transform: translateX(50%);
+		-o-transform: translateX(50%);
+		transform: translateX(50%);
+		opacity: 0
+	}
+
+	to {
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-o-transform: translateX(0);
+		transform: translateX(0);
+		opacity: 1
+	}
+}
+
+@keyframes rightIn {
+	0% {
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
+		opacity: 0
+	}
+
+	to {
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-o-transform: translateX(0);
+		transform: translateX(0);
+		opacity: 1
+	}
+}
+
+@keyframes topIn {
+	0% {
+		-webkit-transform: translateY(-300%);
+		-moz-transform: translateY(-300%);
+		-o-transform: translateY(-300%);
+		transform: translateY(-300%);
+		opacity: 0
+	}
+
+	to {
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1
+	}
+}

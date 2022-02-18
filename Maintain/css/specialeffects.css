@@ -1,0 +1,39 @@
+.specialeffects_slider_background {
+	height: 646px;
+	position: absolute;
+}
+
+.slideGo:hover .hoverMask {
+	bottom: 0;
+	height: 100%;
+}
+
+.info_zine .left_zone .guess_zone .bgZone ul li .outout .out:hover .hoverMask {
+	opacity: 1;
+}
+
+.info_zine .left_zone .guess_zone .bgZone ul li .outout .out:hover .pic img {
+	width: 120%;
+	height: 120%;
+	-webkit-transform: rotate(-3deg) scale(1.05);
+	transform: rotate(-3deg) scale(1.05);
+}
+
+.pull_right {
+	float: right;
+}
+
+.right_zone .rank_zone .title .game ul li .fly .txt,
+.right_zone .hot_zone .title .game ul li .fly .txt {
+	padding-left: 30px;
+}
+
+.right_zone .rank_zone .title .game .csli:hover .cs,
+.right_zone .hot_zone .title .game .csli:hover .cs {
+	background-image: url(../images/game/icon_cs_game.png);
+}
+
+.right_zone .rank_zone .title .game ul li .cs .txt,
+.right_zone .hot_zone .title .game ul li .cs .txt {
+	padding-left: 30px;
+}

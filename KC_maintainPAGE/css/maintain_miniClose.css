@@ -1,0 +1,114 @@
+body {
+	margin: 0px;
+}
+
+.content {
+	background-image: url(../images/maintain/miniStop/Bg.jpg);
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-position: 0 25vh;
+}
+
+.content .contentWrapper {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+.content .contentWrapper .txtZone {
+	width: 48%;
+	padding: 4%;
+}
+
+.content .contentWrapper .txtZone .txtInner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+	width: 100%;
+}
+
+.content .contentWrapper .txtZone .txtInner h1 {
+	font-size: 3vw;
+	font-weight: bold;
+	color: #c99463;
+	/* text-align: center; */
+	width: 100%;
+	margin: 0px;
+	font-family: arial;
+	letter-spacing: -1px;
+}
+
+.content .contentWrapper .txtZone .txtInner p {
+	font-size: 2.8vw;
+	font-family: arial;
+	color: #6a7391;
+	text-align: center;
+	margin-top: 0.3vh;
+	line-height: 2;
+	font-weight: bold;
+}
+
+.content .contentWrapper .picZone {
+	width: 53%;
+}
+
+.content .contentWrapper .picZone img {
+	width: 100%;
+}
+
+/*rwd*/
+@media (max-width:1048px) {
+	.content {
+		background-position: 0 25vh;
+	}
+
+	.content .contentWrapper {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.content .contentWrapper .picZone {
+		width: 60%;
+		padding-top: 5%;
+	}
+
+	.content .contentWrapper .txtZone {
+		width: 54%;
+		padding: 0%;
+	}
+
+	.content .contentWrapper .txtZone .txtInner {
+		align-items: center;
+	}
+
+	.content .contentWrapper .txtZone .txtInner h1 {
+		font-size: 4vw;
+		margin-top: 6vh;
+		text-align: center;
+	}
+
+	.content .contentWrapper .txtZone .txtInner p {
+		font-size: 2.8vw;
+		margin-top: -0.7vh;
+	}
+}
+
+@media (max-width:843px) {
+	.content .contentWrapper .picZone {
+		width: 71%;
+		padding-top: 5%;
+	}
+
+	.content .contentWrapper .txtZone {
+		width: 62%;
+		padding: 0%;
+	}
+}

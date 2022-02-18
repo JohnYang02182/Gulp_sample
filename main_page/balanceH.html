@@ -1,0 +1,95 @@
+ <!-- include Meta -->
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+   <meta charset=" UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>KCASINO</title>
+   <link rel="Shortcut Icon" type="image/x-icon" href="../Content/Views/Shared/images/favicon.ico">
+   <link rel="stylesheet" type="text/css" href="../Maintain/css/animate.css">
+   <!--input-->
+   <link rel="stylesheet" type="text/css" href="../Maintain/css/materialize.min.css">
+   <!--共用框架-->
+   <link rel="stylesheet" type="text/css" href="../Content/Views/Shared/main.css">
+   <link rel="stylesheet" type="text/css" href="../Content/Views/Shared/header.css">
+   <link rel="stylesheet" type="text/css" href="../Content/Views/Shared/leftMenu.css">
+   <link rel="stylesheet" type="text/css" href="../Content/Views/Shared/footer.css">
+
+   <!--配合wow.js使用動畫-->
+   <link rel="stylesheet" type="text/css" href="../Maintain/css/animate.min.css">
+   <!--叫進符號字型_style.css + font資料夾-->
+   <link rel="stylesheet" type="text/css" href="../Maintain/css/style.css">
+   <!--SLICK rwd banner slider-->
+   <link href=" ../Maintain/css/slick.css" rel="stylesheet" type="text/css" />
+   <link href="../Maintain/css/slick-theme.css" rel="stylesheet" type="text/css" />
+   <link rel="stylesheet" type="text/css" href="../Content/Views/Shared/popup.css">
+   <link rel="stylesheet" type="text/css" href="../Content/Views/Shared/popup_LoginReg.css">
+   <!--首頁右-->
+   <link rel="stylesheet" type="text/css" href="../Content/Views/Shared/noticeCommon.css">
+   <link rel="stylesheet" type="text/css" href="../Content/Views/BetRecord/index.css">
+   <link rel="stylesheet" type="text/css" href="../Content/Views/Shared/color.css">
+
+   <!--[if lt IE 9]>
+	  <link rel="stylesheet" href="css/ie8.css">
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+ </head>
+
+ <body>
+   <!-- include Meta -->
+   <!-- body -->
+   <div class="allContent">
+     @@include('components/components_sidebar_left.html')
+     <div class="rightContent homePage deposit balanceH">
+        @@include('components/components_content.html',{
+          name: "balanceH"
+        })
+     </div>
+   </div>
+   <!-- body -->
+   <!-- include End -->
+   <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+   <!--slickRWD bannerJS-->
+   <script type="text/javascript" src="../js/slick/slick.min.js"></script>
+   <script type="text/javascript" src="../js/wow.min.js"></script>
+   <script type="text/javascript" src="../js/jquery.countdown.js"></script>
+   <!--webP-->
+   <script type="text/javascript" src="../js/modernizr-custom.js"></script>
+   <script type="text/javascript" src="../js/script.js"></script>
+   <script type="text/javascript" src="../js/materialize.min.js"></script>
+   <script type="text/javascript" src="../js/popup.js"></script>
+   <script type="text/javascript" src="../js/main.js"></script>
+   <script type="text/javascript" src="../js/jquery.dd.js"></script>
+   <!--配合animated.css使用動畫-->
+   <script type="text/javascript" src="../js/wow.min.js"></script>
+   <script type="text/javascript" src="../js/footer.js"></script>
+   <script type="text/javascript" src="../js/notice.js"></script>
+   <!--slickRWD footerJS-->
+   <script type="text/javascript">
+     $(document).ready(function () {
+       //FooterLogo_SLICK_SLIDE
+       $(".thirdLogo").slick({
+         dots: false,
+         arrows: false,
+         infinite: true,
+         centerMode: true,
+         slidesToShow: 2,
+         slidesToScroll: 1,
+         autoplay: true,
+         autoplaySpeed: 1500,
+         speed: 600,
+         slidesToShow: 5,
+         slidesToScroll: 1,
+         pauseOnHover: true
+       });
+     })
+   </script>
+
+ </body>
+
+ </html>
+
+ <!-- include End -->

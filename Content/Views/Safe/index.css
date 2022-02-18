@@ -1,0 +1,679 @@
+/*safe_start*/
+.safe .fundFrame .subZone ul li .infoZoneA {
+	border-bottom: none !important;
+	margin-bottom: 0px;
+}
+
+.safe .fundFrame .subZone ul li .up {
+	width: 10% !important;
+	padding-left: 0px;
+}
+
+.safe .fundFrame .subZone ul li .down {
+	padding: 0px 0px 0px 0px !important;
+}
+
+.safe .fundFrame .subZone ul li .infoZoneA .down ul li {
+	color: var(--txtColor66);
+	list-style: initial;
+	margin-bottom: 37px;
+	font-family: 'ko';
+}
+
+.fundFrame .subZone ul li.fundList .tabZone01 {
+	display: flex;
+	margin-bottom: 8px;
+}
+
+.fundFrame .subZone ul li.fundList .tabZone01 .tab {
+	color: var(--txtColor93);
+	font-size: 16px;
+	font-weight: bold;
+	padding: 22px 21px;
+	cursor: pointer;
+	transition: .3s all ease-out;
+	position: relative;
+}
+
+.fundFrame .subZone ul li.fundList .tabZone01 .tab:hover {
+	color: var(--txtColor100);
+}
+
+.fundFrame .subZone ul li.fundList .tabZone01 .tab::after {
+	content: "";
+	width: 100%;
+	height: 4px;
+	background-color: var(--bdColor064);
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	bottom: 0px;
+	display: none;
+}
+
+.fundFrame .subZone ul li.fundList .tabZone01 .tab::before {
+	content: "";
+	width: 1px;
+	height: 14px;
+	background-color: var(--bgColor129);
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.fundFrame .subZone ul li.fundList .tabZone01 .tab:last-child::before {
+	display: none;
+}
+
+.fundFrame .subZone ul li.fundList .tabZone01 .tab:hover::after,
+.fundFrame .subZone ul li.fundList .tabZone01 .tab.active::after {
+	display: block;
+}
+
+.fundFrame .subZone ul li.fundList .tabZone01 .tab.active {
+	color: var(--txtColor100);
+}
+
+.main_content_wrap_notice .listZone table tr td .checkFrame {
+	display: flex;
+}
+
+.main_content_wrap_notice .listZone table tr td .checkZone {
+	color: var(--txtColor95);
+	background-color: #fbf9f7;
+	/* height: 188px; */
+	padding: 18px 69px 18px 26px;
+	border-radius: 10px;
+	margin-right: 21px;
+}
+
+.main_content_wrap_notice .listZone table tr td .checkZone .title {
+	margin-bottom: 6px;
+}
+
+.main_content_wrap_notice .listZone table tr td .checkZone .txt {
+	font-size: 13px;
+	line-height: 1.8;
+	font-family: 'ko';
+	margin-left: 35px;
+}
+
+.main_content_wrap_notice .listZone table tr td .checkZone .txt span {
+	color: var(--txtColor110);
+}
+
+.main_content_wrap_notice .listZone table tr td .rem_check {
+	color: var(--txtColor95);
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.safe .fundFrame tr:hover {
+	background-color: var(--bgColor017) !important;
+}
+
+.safe .listZoneA {
+	width: 100%;
+	border-top: 2px solid var(--bdColor061);
+	margin-top: 0px;
+	border-bottom: 2px solid var(--bdColor061);
+}
+
+.safe .noticeFrame .listZone .inputFrame {
+	display: flex;
+	margin-bottom: 0px;
+}
+
+.subZone01 {}
+
+.subZone01 .safeList {}
+
+.subZone01 .safeList:nth-child(2) {
+	display: none;
+}
+
+.safe .fundFrame .fundShow .titleZone h2 {
+	color: var(--txtColor99);
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.safe .fundFrame .fundShow .titleZone h4 {
+	color: var(--txtColor66);
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 16px;
+}
+
+.safe .fundFrame .fundShow .fundBrick .cube h4 {
+	margin-bottom: 16px;
+	color: var(--txtColor95);
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.safe .fundFrame .fundShow .fundBrick .cube .money {
+	font-size: 20px;
+	font-weight: bolder;
+	color: var(--txtColor99);
+}
+
+.safe .fundFrame .resultZone {
+	color: var(--txtColor95);
+	font-size: 18px;
+	font-weight: bold;
+	display: flex;
+}
+
+.safe .fundFrame .resultZone .result {
+	padding: 0px 15px;
+	position: relative;
+}
+
+.safe .fundFrame .resultZone .result span {
+	color: var(--txtColor99);
+}
+
+.safe .fundFrame .resultZone .result::after {
+	content: "";
+	width: 1px;
+	height: 14px;
+	background-color: var(--bgColor129);
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.safe .fundFrame .resultZone .result:first-child {
+	padding-left: 0px !important;
+}
+
+.safe .fundFrame .resultZone .result:last-child::after {
+	display: none;
+}
+
+.safeZone {
+	margin-top: -36px;
+}
+
+.safeZone .pic {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.safeZone .pic img {
+	z-index: 1;
+	position: relative;
+	transition: .3s ease-out;
+	width: 53%;
+	height: auto;
+}
+
+.safeZone .btnZone {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.safeZone .btnZone button {
+	height: 40px;
+	padding: 0px 47px;
+	color: var(--txtColor02);
+	background-color: var(--btnColor033);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	float: right;
+	margin-top: 23px;
+	cursor: pointer;
+	border: 0px;
+	transition: .2s ease-out;
+}
+
+/*subzone_start*/
+.fundFrame .subZone {
+	/* margin-top: 21px; */
+}
+
+.fundFrame .subZone ul {}
+
+.fundFrame .subZone ul li.fundList {
+	margin-top: 0px;
+}
+
+.fundFrame .subZone ul li.fundList:nth-child(2),
+.fundFrame .subZone ul li.fundList:nth-child(3),
+.fundFrame .subZone ul li.fundList:nth-child(4),
+.fundFrame .subZone ul li.fundList:nth-child(5),
+.fundFrame .subZone ul li.fundList:nth-child(6) {
+	display: none;
+}
+
+.fundFrame .subZone ul li.fundList .infoZone {
+	padding: 24px 15px;
+	margin-bottom: 25px;
+	margin-top: 41px;
+	background-color: var(--bgColor127);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.fundFrame .subZone ul li.fundList .infoZone p {
+	color: var(--txtColor98);
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.fundFrame .subZone ul li.fundList .infoZone p span {
+	color: var(--txtColor94);
+}
+
+.fundFrame .subZone ul li .infoZoneA {
+	width: 100%;
+	margin-bottom: 22px;
+	/* border: 1px solid var(--bdColor047); */
+	padding-top: 26px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .up {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	/* height: 50px; */
+	padding-left: 16px;
+	z-index: 1;
+	position: relative;
+}
+
+.fundFrame .subZone ul li .infoZoneA .up .icon {
+	width: 24px;
+	height: 24px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+}
+
+.fundFrame .subZone ul li .greenBlock .up .icon {
+	border: 2px solid var(--bdColor08);
+}
+
+.fundFrame .subZone ul li .greyBlock .up .icon {
+	border: 2px solid var(--bdColor018);
+}
+
+.fundFrame .subZone ul li .infoZoneA .up .icon span {
+	text-align: center;
+}
+
+.fundFrame .subZone ul li .greenBlock .up .icon span {
+	color: var(--txtColor37);
+}
+
+.fundFrame .subZone ul li .greyBlock .up .icon span {
+	color: var(--txtColor38);
+}
+
+.fundFrame .subZone ul li .infoZoneA .up .txt {
+	font-weight: bold;
+	font-size: 16px;
+	color: var(--txtColor70);
+}
+
+.fundFrame .subZone ul li .greenBlock .up .txt {
+	color: var(--txtColor70);
+}
+
+.fundFrame .subZone ul li .infoZoneA .down {
+	width: 100%;
+	padding: 15px 0px 15px 41px;
+	margin-top: -1px;
+	z-index: 0;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down ul {}
+
+.fundFrame .subZone ul li .infoZoneA .down ul li {
+	color: var(--txtColor66);
+	list-style: initial;
+	margin-bottom: 14px;
+	letter-spacing: -1px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down ul li span {
+	float: left;
+	margin-right: 12px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down ul li a {
+	background-color: var(--btnColor025);
+	color: var(--txtColor02);
+	font-size: 14px;
+	height: 40px;
+	padding: 0px 13px;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: .4s ease-out;
+	margin-left: 5px;
+	letter-spacing: 0.5px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down ul li.liFl::before {
+	content: "";
+	width: 4px;
+	height: 4px;
+	border-radius: 50px;
+	background-color: var(--txtColor66);
+	position: absolute;
+	left: -15px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down ul li.liFl {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down ul li.liFl .inputFrame {
+	display: flex;
+	align-items: center;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down ul li.liFl .inputFrame .input_content {
+	/* width: 36%; */
+	height: 40px;
+	padding-left: 11px;
+	background-repeat: no-repeat;
+	background-position: 10px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	position: relative;
+	color: var(--txtColor010);
+	background-color: var(--bgColor017);
+	border: 1px solid var(--bdColor03) !important;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down ul li.liFl .inputFrame .input_content:active,
+.fundFrame .subZone ul li .infoZoneA .down ul li.liFl .inputFrame .input_content:focus,
+.fundFrame .subZone ul li .infoZoneA .down ul li.liFl .inputFrame .input_content:focus-within,
+.fundFrame .subZone ul li .infoZoneA .down ul li.liFl .inputFrame .input_content:target {
+	border: 1px solid var(--bdColor064) !important;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down ul li.liFl .inputFrame .input_content input {
+	border-bottom: none !important;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down ul li.liFl .inputFrame .input_content input:focus {
+	border-bottom: none !important;
+	box-shadow: none !important;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down ul li.liFl .inputFrame .input_content input::placeholder {
+	color: var(--txtColor36);
+	font-size: 14px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down ul li.liFl .info {
+	display: flex;
+	align-items: center;
+	width: 35%;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .wdPW {
+	display: flex;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .wdPW .inputFrame {
+	display: flex;
+	align-items: center;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .wdPW .inputFrame .txtT {
+	color: var(--txtColor66);
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .wdPW .input_content {
+	position: relative;
+	height: 31px;
+	margin-left: 6px;
+	width: 106px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .wdPW .input_zone span.icon {
+	background-image: url(../images/icon_account.png);
+	width: 26px;
+	height: 26px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .wdPW input {
+	height: 31px;
+	padding-left: 12px;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	border-radius: 5px;
+	color: var(--txtColor77);
+	background-color: var(--bgColor017);
+	/*border: 1px solid #d9d9d9 !important;*/
+	font-size: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .wdPW input::placeholder {
+	color: var(--txtColor010);
+	font-size: 14px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .wdPW .wdBtn {
+	padding: 0px 16px;
+	height: 31px;
+	background-color: var(--btnColor024);
+	color: var(--txtColor02);
+	border: 0px;
+	border-radius: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 14px;
+	transition: .4s ease-out;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .wdPW .wdBtn:hover {
+	background-color: var(--btnColor024_h);
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .wdName {
+	color: #6a7391;
+	font-size: 14px;
+	height: 32px;
+	padding: 0px 14px;
+	background-color: #f3f3f3;
+	border-radius: 5px;
+	line-height: 32px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .wdName span {
+	margin-top: 0px;
+	position: relative;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .wdName span.line {
+	margin-right: 26px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .wdName span.line::after {
+	content: "";
+	width: 1px;
+	height: 15px;
+	background-color: #6a7391;
+	position: absolute;
+	top: 9px;
+	right: -13px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down ul li a:hover {
+	background-color: var(--btnColor025_h);
+}
+
+.fundFrame .subZone ul li .infoZoneA .down ul li a.lock {
+	background-color: var(--btnColor031);
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .hint {
+	display: flex;
+	align-items: center;
+	color: var(--txtColor69);
+	position: relative;
+	cursor: pointer;
+	width: 112px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .hint span {
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 4px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .hint h2 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .hint .hoverMsg {
+	background-color: #f4f4f4;
+	padding: 14px;
+	border-radius: 10px;
+	box-shadow: 2px 4px 5px 1px rgb(167 181 204 / 35%);
+	width: 320px;
+	position: absolute;
+	z-index: 2;
+	bottom: 41px;
+	display: none;
+	transition: .4s ease-out;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .hint:hover .hoverMsg {
+	display: block;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .hint .hoverMsg::before {
+	content: "";
+	background-image: url(../Notice/images/triangel.png);
+	width: 54px;
+	height: 33px;
+	position: absolute;
+	left: 45px;
+	bottom: -33px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .hint .hoverMsg .title {
+	color: var(--txtColor70);
+	font-size: 18px;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .hint .hoverMsg .section {
+	width: 100%;
+	height: auto;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .hint .hoverMsg .section .leftZone {
+	color: var(--txtColor70);
+	font-size: 12px;
+	float: left;
+	width: 15%;
+}
+
+.fundFrame .subZone ul li .infoZoneA .down .hint .hoverMsg .section .rightZone {
+	color: var(--txtColor66);
+	font-size: 12px;
+	width: 83%;
+	height: auto;
+	float: left;
+	line-height: 1.6;
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+.fundList .main_content_wrap_notice .listZone01 tr:nth-child(even) {
+	background-color: var(--bgColor022) !important;
+}
+
+.fundList .main_content_wrap_notice .listZone01 table tr:first-child:hover {
+	background-color: var(--bgColor017) !important;
+}
+
+.fundList .main_content_wrap_notice .listZone01 table tr:hover {
+	background-color: var(--bgColor036) !important;
+}
+
+.fundList .main_content_wrap_notice .listZone01 table tr:nth-child(even):hover {
+	background-color: var(--bgColor033) !important;
+}
+
+.fundList .main_content_wrap_notice .listZone01 {
+	border-bottom: 1px solid var(--bdColor013) !important;
+	margin-top: 17px;
+}
+
+.fundFrame .fundShow {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 69px;
+	margin-bottom: 56px;
+}
+
+.fundFrame .fundShow .titleZone {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.fundFrame .fundShow .titleZone h2 {
+	color: var(--txtColor95);
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.fundFrame .fundShow .titleZone h4 {
+	color: var(--txtColor99);
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 16px;
+}
+
+.fundFrame .fundShow .fundBrick {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.fundFrame .fundShow .fundBrick .cube {
+	width: 32.8%;
+	padding: 30px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--bgColor123);
+	border-radius: 10px;
+}
+
+/*subzone_end*/
+
+/*safe_end*/

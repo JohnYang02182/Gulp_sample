@@ -1,0 +1,199 @@
+.countDown {
+    width: 90%;
+}
+
+.countdownHolder {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: -19px;
+    font: 63px/1.2 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.position {
+    display: inline-block;
+    height: 1.6em;
+    overflow: hidden;
+    position: relative;
+    width: 0.8em;
+}
+
+.digit {
+    position: absolute;
+    display: block;
+    width: 0.8em;
+    border-radius: 0.2em;
+    text-align: center;
+    color: var(--txtColor79);
+    letter-spacing: -1px;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.digit.static {}
+
+/**
+ * You can use these classes to hide parts
+ * of the countdown that you don't need.
+ */
+
+.countDays {
+    position: relative;
+}
+
+.countDiv0 {}
+
+.countHours {
+    position: relative;
+}
+
+.countDiv1 {}
+
+.countMinutes {
+    position: relative;
+}
+
+.countDiv2 {}
+
+.countSeconds {
+    position: relative;
+}
+
+
+.countDiv {
+    display: inline-block;
+    width: 16px;
+    height: 1.7em;
+    position: relative;
+    top: 5px;
+}
+
+.countDiv:before,
+.countDiv:after {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: var(--bgColor014);
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -3px;
+    top: 0.5em;
+    box-shadow: 1px 1px 1px var(--shadow06);
+}
+
+.countDiv:after {
+    top: 0.9em;
+}
+
+.countDays::before {
+    content: "Days";
+    color: var(--txtColor73);
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    letter-spacing: 0px;
+    bottom: 2px;
+    left: 29px;
+}
+
+.countHours::before {
+    content: "Hours";
+    color: var(--txtColor73);
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    letter-spacing: 0px;
+    bottom: 2px;
+    left: 23px;
+}
+
+.countMinutes::before {
+    content: "Mins";
+    color: var(--txtColor73);
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    letter-spacing: 0px;
+    bottom: 2px;
+    left: 29px;
+}
+
+.countSeconds::before {
+    content: "Secs";
+    color: var(--txtColor73);
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    letter-spacing: 0px;
+    bottom: 2px;
+    left: 29px;
+}
+
+@media (max-width:618px) {
+    .digit {
+        font-size: 55px;
+    }
+
+    .countdownHolder {
+        width: 90%;
+        font: 47px/1.2 'Segoe UI', Arial, sans-serif;
+    }
+
+    .countDays::before {
+        font-size: 18px;
+        left: 22px;
+    }
+
+    .countHours::before {
+        font-size: 18px;
+        left: 15px;
+    }
+
+    .countMinutes::before {
+        font-size: 18px;
+        left: 21px;
+    }
+
+    .countSeconds::before {
+        font-size: 18px;
+        left: 22px;
+    }
+}
+
+@media (max-width:414px) {
+    .digit {
+        font-size: 37px;
+    }
+
+    .countdownHolder {
+        width: 100%;
+        font: 31px/1.2 'Segoe UI', Arial,
+            sans-serif;
+    }
+
+    .countDays::before {
+        font-size: 12px;
+        left: 16px;
+        bottom: 0px;
+    }
+
+    .countHours::before {
+        font-size: 12px;
+        left: 11px;
+        bottom: 0px;
+    }
+
+    .countMinutes::before {
+        font-size: 12px;
+        left: 14px;
+        bottom: 0px;
+    }
+
+    .countSeconds::before {
+        font-size: 12px;
+        left: 15px;
+        bottom: 0px;
+    }
+}

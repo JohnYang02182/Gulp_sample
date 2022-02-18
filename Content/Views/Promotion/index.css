@@ -1,0 +1,1135 @@
+/*animation*/
+.aniModel {
+	-webkit-animation: aniModel 1s infinite;
+	animation: aniModel 1s infinite;
+}
+
+@keyframes aniModel {
+	0% {
+		background-position-y: 0px;
+	}
+
+	50% {
+		background-position-y: 5px;
+	}
+
+	100% {
+		background-position-y: 0px;
+	}
+}
+
+/*RWD*/
+
+@media (max-width:1572px) {
+	.main_content_wrap {
+		width: 87%;
+		margin-left: 6%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino01 .modelA {
+		top: 6%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino02 .modelA {
+		top: 7%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino03 .modelA {
+		top: 5%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino04 .modelA {
+		top: 5%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino05 .modelA {
+		top: 6%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino06 .modelA {
+		top: 7%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino07 .modelA {
+		top: 6%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino08 .modelA {
+		top: 5%;
+	}
+}
+
+@media (max-width:1552px) {
+	.rightContent .contents .slotZone .leftZone .pic {
+		padding-bottom: 52%;
+	}
+}
+
+@media (max-width:1547px) {
+	.main_content_wrap {
+		width: 83%;
+		margin-left: 5%;
+	}
+}
+
+@media (max-width:1480px) {
+	.rightContent .contents .slotZone .leftZone .pic {
+		padding-bottom: 54%;
+	}
+}
+
+@media (max-width:1477px) {
+	.main_content_wrap {
+		width: 78%;
+		margin-left: 4%;
+	}
+}
+
+@media (max-width:1443px) {
+	.main_content_wrap {
+		width: 78%;
+		margin-left: 5%;
+	}
+}
+
+@media (max-width:1442px) {}
+
+@media (max-width:1420px) {
+	.main_content_wrap {
+		width: 89%;
+		margin-left: 5%;
+	}
+
+	.rightContent .contents .casinoZone .content ul {
+		justify-content: space-between;
+	}
+
+	.rightContent .contents .casinoZone .content ul li {
+		width: 49%;
+		height: 180px;
+	}
+
+	.rightContent .contents .casinoZone .content ul li .logo {
+		background-size: cover;
+		position: absolute;
+		right: 24%;
+		top: 17%;
+		z-index: 2;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino01 .logoA {
+		width: 8.9%;
+		padding-bottom: 8.9%;
+		right: 27%;
+		top: 21%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino02 .logoA {
+		width: 13%;
+		padding-bottom: 7.1%;
+		right: 25%;
+		top: 24%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino03 .logoA {
+		width: 13.2%;
+		padding-bottom: 7.8%;
+		top: 23%;
+		right: 26%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino04 .logoA {
+		width: 8.2%;
+		right: 27%;
+		top: 23%;
+		padding-bottom: 8.1%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino05 .logoA {
+		width: 8.3%;
+		padding-bottom: 11.9%;
+		right: 28%;
+		top: 12%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino06 .logoA {
+		width: 19%;
+		padding-bottom: 7.5%;
+		top: 24%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino07 .logoA {
+		width: 11%;
+		padding-bottom: 9.1%;
+		top: 20%;
+		right: 27%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino08 .logoA {
+		width: 17%;
+		padding-bottom: 8.1%;
+		right: 23%;
+		top: 21%;
+	}
+
+
+	.rightContent .contents .casinoZone .content ul li.casino01 .modelA {
+		padding-bottom: 31%;
+		width: 54%;
+		top: 6%;
+		left: -4%;
+	}
+
+
+	.rightContent .contents .casinoZone .content ul li.casino02 .modelA {
+		padding-bottom: 34%;
+		width: 43%;
+		left: 6%;
+		top: 4%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino03 .modelA {
+		padding-bottom: 33.7%;
+		width: 57%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino04 .modelA {
+		padding-bottom: 36%;
+		width: 60%;
+		left: -5%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino05 .modelA {
+		padding-bottom: 36%;
+		width: 48%;
+		left: 2%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino06 .modelA {
+		padding-bottom: 36%;
+		width: 54%;
+		left: 4%;
+		top: 4%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino07 .modelA {
+		padding-bottom: 36%;
+		width: 61%;
+	}
+
+	.rightContent .contents .casinoZone .content ul li.casino08 .modelA {
+		padding-bottom: 36%;
+		width: 49%;
+		top: 2%;
+		left: 2%;
+	}
+
+
+	.rightContent .contents .casinoZone .content ul li .txt {
+		left: 50%;
+		top: 54%;
+		transform: translate(-32%, -17%);
+	}
+
+	.rightContent .contents .casinoZone {
+		width: 85%;
+	}
+
+	.rightContent .contents .slotZone {
+		flex-direction: column-reverse;
+		width: 100%;
+	}
+
+	.rightContent .contents .slotZone .rightZone ul li {
+		width: 32.8%;
+	}
+
+	.rightContent .contents .slotZone .slotLeft {
+		width: 100%;
+	}
+
+	.rightContent .contents .slotZone .rightZone ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.rightContent .contents .slotZone .rightZone {
+		width: 100%;
+	}
+
+	.main_content .main_content_wrap .infoZone {
+		width: 85%;
+	}
+
+	.main_content .main_content_wrap .infoZone .info01 .list .listA .message {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		width: 183px;
+	}
+}
+
+.titlePic {
+	background-repeat: no-repeat;
+	width: 100%;
+	margin-top: 107px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+	margin-top: 106px;
+}
+
+.titlePic .titlePwrapper {
+	width: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.titlePic .titlePwrapper .leftZone {
+	color: var(--txtColor71);
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 17.5vw;
+	transform: translateZ(0px);
+	margin-right: 1vw;
+}
+
+.titlePic .titlePwrapper .leftZone span.icon-iiconLogoB {
+	font-size: 2.3vw;
+	margin-right: 4px;
+}
+
+.titlePic .titlePwrapper .leftZone h4 {
+	font-size: 1.4vw;
+	margin-right: 0.5vw;
+}
+
+.titlePic .titlePwrapper .leftZone span {
+	color: var(--txtColor94);
+	font-size: 1.4vw;
+}
+
+.titlePic .titlePwrapper .line {
+	height: 2px;
+	width: 72vw;
+	background-color: var(--bgColor085);
+	position: relative;
+}
+
+
+.main_content_wrap_promotion {
+	width: 94% !important;
+	margin-top: 32px !important;
+}
+
+.gameZoneA {
+	margin-top: 20px;
+}
+
+.gameZoneA .tabZone {
+	animation: topIn .4s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+.gameZoneA .tabZone ul {
+	display: flex;
+}
+
+.gameZoneA .tabZone ul li {
+	height: 58px;
+	width: 12.5%;
+	background-color: var(--bgColor017);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: .4s ease-out;
+	position: relative;
+	border: 1px solid var(--bdColor065);
+	margin-left: -1px;
+}
+
+.gameZoneA .tabZone ul li.active {
+	background-color: var(--bgColor095);
+}
+
+.gameZoneA .tabZone ul li:hover {
+	background-color: var(--bgColor095);
+}
+
+
+.gameZoneA .tabZone ul li span {
+	color: var(--txtColor94);
+	font-size: 25px;
+	transition: .3s ease-out;
+	margin-right: 5px;
+}
+
+.gameZoneA .tabZone ul li span.icon-icconALLnew {
+	font-size: 23px;
+}
+
+.gameZoneA .tabZone ul li span.icon-icconDbonus {
+	font-size: 28px;
+}
+
+.gameZoneA .tabZone ul li span.icon-icconVip {
+	font-size: 30px;
+}
+
+.gameZoneA .tabZone ul li span.icon-iiconDice {
+	font-size: 23px;
+}
+
+.gameZoneA .tabZone ul li span.icon-iiconSlote {
+	font-size: 32px;
+}
+
+.gameZoneA .tabZone ul li span.icon-iiconGame {
+	font-size: 28px;
+}
+
+.gameZoneA .tabZone ul li span.icon-iiconPoker {
+	font-size: 26px;
+}
+
+.gameZoneA .tabZone ul li span.icon-icconVR {
+	font-size: 32px;
+}
+
+
+.gameZoneA .tabZone ul li h4 {
+	color: var(--txtColor94);
+	font-size: 14px;
+	transition: .4s ease-out;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.gameZoneA .tabZone ul li.active span,
+.gameZoneA .tabZone ul li.active h4 {
+	color: var(--txtColor02);
+}
+
+.gameZoneA .tabZone ul li:hover h4 {
+	color: var(--txtColor02);
+}
+
+.gameZoneA .tabZone ul li.active h4 {
+	color: var(--txtColor02);
+}
+
+.gameZoneA .tabZone ul li.active span,
+.gameZoneA .tabZone ul li:hover span {
+	color: var(--txtColor02);
+}
+
+.gameZoneA .slotZone {
+	background-color: var(--bgColor017);
+	/* overflow: hidden; */
+	height: auto;
+	width: 100%;
+	padding-bottom: 11px;
+	animation: leftIn .4s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+.gameZoneA .slotZone ul li.slotLobby:nth-child(1) {
+	display: block;
+}
+
+.gameZoneA .slotZone ul li.slotLobby:nth-child(2),
+.gameZoneA .slotZone ul li.slotLobby:nth-child(3),
+.gameZoneA .slotZone ul li.slotLobby:nth-child(4),
+.gameZoneA .slotZone ul li.slotLobby:nth-child(5),
+.gameZoneA .slotZone ul li.slotLobby:nth-child(6),
+.gameZoneA .slotZone ul li.slotLobby:nth-child(7) {
+	display: none;
+}
+
+.gameZoneA .slotZone ul li.slotLobby {}
+
+.gameZoneA .slotZone ul li.slotLobby ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion {
+	width: 32%;
+	transition: .4s ease-out;
+	position: relative;
+	border: 1px solid var(--bdColor038);
+	background-color: var(--bgColor070);
+	border-radius: 12px;
+	box-shadow: 2px 4px 5px 1px rgb(167 181 204 / 35%), inset 0px 0px 6px 1px rgb(255 255 255 / 75%);
+	margin-top: 25px;
+	margin-bottom: 19px;
+	margin-right: 19px;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .hintP {
+	position: absolute;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 15%;
+	height: auto;
+	padding-bottom: 5%;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 11px;
+	top: -4px;
+	left: 3%;
+	color: var(--txtColor02);
+	letter-spacing: -1px;
+	font-size: .6vw;
+	z-index: 1;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .hintP01 {
+	background-image: url(../images/promotion/pp01.png);
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .hintP02 {
+	background-image: url(../images/promotion/pp02.png);
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .hintP03 {
+	background-image: url(../images/promotion/pp03.png);
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .hintP04 {
+	background-image: url(../images/promotion/pp04.png);
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .hintP05 {
+	background-image: url(../images/promotion/pp05.png);
+	font-size: .6vw;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .hintP06 {
+	background-image: url(../images/promotion/pp06.png);
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .upZone {
+	border-radius: 9px 9px 0px 0px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .upZone img {
+	width: 100%;
+	height: auto;
+	transition: .4s ease-out;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion:hover .upZone img {
+	transform: scale(1.1);
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .bottomZone {
+	padding: 33px 20px 29px 20px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .bottomZone .txtFrame {}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .bottomZone h3 {
+	color: var(--txtColor66);
+	font-size: 1vw;
+	font-weight: bold;
+	margin-bottom: 18px;
+	display: inline-block;
+	overflow: hidden;
+	padding-top: 5px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 16vw;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .bottomZone h2 {
+	color: var(--txtColor66);
+	font-size: 0.8vw;
+	margin-bottom: 15px;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .bottomZone .btnP {
+	color: var(--txtColor02);
+	padding: 13px 18px;
+	text-decoration: none;
+	background-color: var(--btnColor025);
+	border-radius: 20px;
+	font-size: 0.6vw;
+	cursor: pointer;
+	transition: .3s ease-out;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .bottomZone .btnP:hover {
+	background-color: var(--btnColor025_h);
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion a .pic {
+	width: 100%;
+	height: auto;
+	position: relative;
+	background-color: var(--bgColor017);
+	border: 1px solid var(--bdColor010);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1px;
+	overflow: hidden;
+	border-radius: 30px;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion a .pic img {
+	z-index: 1;
+	position: relative;
+	transition: .3s ease-out;
+	width: 100%;
+	height: auto;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion a .pic::before {
+	content: "";
+	position: absolute;
+	width: 177px;
+	height: 177px;
+	background-image: url(../images/lobby/game/gameUpBg.png);
+	z-index: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion a .name {
+	position: relative;
+	width: 95%;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4px;
+	margin: 0 auto;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion a .name::before {}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion a .name span {
+	z-index: 1;
+	color: var(--txtColor66);
+	font-weight: bolder;
+	font-size: 0.9vw;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .mask {
+	/*background: rgb(215, 177, 119);
+	background: linear-gradient(360deg, rgba(215, 177, 119, 1) 0%, rgba(103, 62, 46, 1) 9%, rgba(215, 177, 119, 1) 25%, rgba(166, 112, 89, 1) 67%, rgba(255, 245, 193, 1) 100%);
+	*/
+	width: 100%;
+	height: 100%;
+	background-color: var(--bgColor013_op);
+	z-index: 2;
+	position: absolute;
+	border-radius: 5px;
+	display: none;
+	transition: .4s ease-out;
+	cursor: pointer;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion:hover .pic img {
+	transform: rotate(10deg) scale(1.1);
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .mask::before {}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .mask .gogo {
+	width: 75%;
+	height: 44px;
+	position: relative;
+	cursor: pointer;
+	transition: .4s ease-out;
+	box-shadow: 6px 5px 7px var(--shadow08) .5;
+	background: rgb(242, 208, 155);
+	background: linear-gradient(90deg, rgba(242, 208, 155, 1) 0%, rgba(219, 184, 151, 1) 40%, rgba(142, 112, 84, 1) 100%);
+	border-radius: 20px;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion .mask .gogo span {
+	color: var(--txtColor02);
+	font-size: 0.8vw;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li.goPromotion:hover .mask {
+	display: block;
+}
+
+/*heart01_start(onlyIcon)*/
+.gameZoneA .slotZone ul li.slotLobby ul li .heart01 {
+	position: absolute;
+	top: 4px;
+	left: -4px;
+	cursor: pointer;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li .heart01 span {
+	transition: all .2s linear;
+	font-size: 25px !important;
+	font-weight: normal !important;
+	color: var(--txtColor76) !important;
+	position: absolute;
+}
+
+/*heart01_end(onlyIcon)*/
+
+
+/*heart_start*/
+
+.gameZoneA .slotZone ul li.slotLobby ul li .heart::before {
+	display: none !important;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li .heart {
+	position: absolute;
+	top: -7px;
+	left: -15px;
+}
+
+.gameZoneA .slotZone ul li.slotLobby ul li .heart label::before {
+	display: none;
+}
+
+[class^="fa"] {
+	font-style: normal;
+}
+
+input[name^="like"],
+input[name^="favourite"] {
+	display: none;
+}
+
+input[name^="like"]+label[for],
+input[name^="favourite"]+label[for] {
+	background-color: var(--bgColor020);
+	-webkit-border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	border-radius: 0.25em;
+	color: var(--txtColor02);
+	cursor: pointer;
+	font-weight: 300;
+	margin: 0.35em;
+	padding: 6px 12px;
+	-webkit-transition: all .2s linear;
+	transition: all .2s linear;
+}
+
+input[name^="favourite"]+label[for] {
+	background-color: var(--txtColor21);
+}
+
+input[name^="like"]+label[for]:hover,
+input[name^="like"]+label[for]:focus,
+input[name^="favourite"]+label[for]:hover,
+input[name^="favourite"]+label[for]:focus {
+	background-color: var(--txtColor21);
+	outline: 0;
+}
+
+input[name^="favourite"]+label[for]:hover,
+input[name^="favourite"]+label[for]:focus {
+	background-color: var(--txtColor21);
+}
+
+/*start transparent button*/
+input[name^="like"]+label[for].transparent {
+	background-color: transparent;
+	color: var(--txtColor21);
+}
+
+input[name^="favourite"]+label[for].transparent {
+	background-color: transparent;
+	color: var(--txtColor21);
+}
+
+input[name^="like"]+label[for].transparent:hover,
+input[name^="like"]+label[for].transparent:focus,
+input[name^="favourite"]+label[for].transparent:hover,
+input[name^="favourite"]+label[for].transparent:focus {
+	color: var(--txtColor21);
+}
+
+input[name^="favourite"]+label[for].transparent:hover,
+input[name^="favourite"]+label[for].transparent:focus {
+	color: var(--txtColor21);
+}
+
+input[name^="like"]+label[for].transparent:hover .icon-icconFavorFull,
+input[name^="like"]+label[for].transparent:focus .icon-icconFavorFull,
+input[name^="favourite"]+label[for].transparent:hover .icon-icconFavorFull,
+input[name^="favourite"]+label[for].transparent:focus .icon-icconFavorFull {
+	opacity: 0.25;
+}
+
+input[name^="favourite"]+label[for].transparent :hover,
+input[name^="favourite"]+label[for].transparent :focus {
+	color: var(--txtColor21);
+}
+
+/*end transparent button*/
+
+/*start labels*/
+input[name^="like"]+label[for] .do,
+input[name^="like"]+label[for] .done,
+input[name^="favourite"]+label[for] .do,
+input[name^="favourite"]+label[for] .done {
+	margin-left: 0.35em;
+}
+
+input[name^="like"]+label[for] .done,
+input[name^="favourite"]+label[for] .done,
+input[name^="like"]:checked+label[for] .do,
+input[name^="favourite"]:checked+label[for] .do {
+	display: none;
+}
+
+input[name^="like"]+label[for] .do,
+input[name^="favourite"]+label[for] .do,
+input[name^="like"]:checked+label[for] .done,
+input[name^="favourite"]:checked+label[for] .done {
+	display: inline-block;
+}
+
+/*end labels*/
+
+/*start icons*/
+
+
+
+input[name^="like"]+label[for] .fa,
+input[name^="favourite"]+label[for] .fa {
+	display: inline-block;
+	position: relative;
+}
+
+input[name^="like"]+label[for] .fa .icon-icconFavor,
+input[name^="favourite"]+label[for] .fa .icon-icconFavor {
+	-webkit-transition: all .2s linear;
+	transition: all .2s linear;
+	font-size: 25px;
+	color: var(--txtColor76);
+}
+
+input[name^="like"]+label[for] .fa .icon-icconFavorFull,
+input[name^="favourite"]+label[for] .fa .icon-icconFavorFull {
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	top: 0;
+	-webkit-transition: all .2s linear;
+	transition: all .2s linear;
+	font-size: 25px;
+	color: var(--txtColor76);
+}
+
+input[name^="like"]+label[for] .fa .icon-icconFavorFull.fx {
+	color: var(--txtColor21);
+}
+
+input[name^="favourite"]+label[for] .fa .icon-icconFavorFull.fx {
+	color: var(--txtColor21);
+}
+
+input[name^="like"]:checked+label[for] .fa .icon-icconFavor,
+input[name^="favourite"]:checked+label[for] .fa .icon-icconFavor {
+	opacity: 0;
+}
+
+input[name^="like"]:checked+label[for] .fa .icon-icconFavorFull,
+input[name^="favourite"]:checked+label[for] .fa .icon-icconFavorFull {
+	opacity: 1;
+}
+
+input[name^="like"]:checked+label[for] .fa .icon-icconFavorFull.fx,
+input[name^="favourite"]:checked+label[for] .fa .icon-icconFavorFull.fx {
+	-moz-animation: expand .65s cubic-bezier(.43, .475, 1, .08);
+	-o-animation: expand .65s cubic-bezier(.43, .475, 1, .08);
+	-webkit-animation: expand .65s cubic-bezier(.43, .475, 1, .08);
+	animation: expand .65s cubic-bezier(.43, .475, 1, .08);
+	opacity: 0;
+}
+
+/*end icons*/
+
+/*start animation*/
+@keyframes expand {
+	0% {
+		-moz-transform: scale(1, 1);
+		-o-transform: scale(1, 1);
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+	}
+
+	50% {
+		-moz-transform: scale(2, 2);
+		-o-transform: scale(2, 2);
+		-webkit-transform: scale(2, 2);
+		transform: scale(2, 2);
+		opacity: .7;
+	}
+
+	100% {
+		-moz-transform: scale(6, 6);
+		-o-transform: scale(6, 6);
+		-webkit-transform: scale(6, 6);
+		transform: scale(6, 6);
+		opacity: 0;
+	}
+}
+
+/*end animation*/
+
+/*heart_end*/
+
+.pager_block {
+	float: left;
+	width: 100%;
+	margin-top: 42px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pager_block .page-list {
+	text-align: center;
+}
+
+.pager_block ul {
+	width: auto;
+	display: inline-block;
+	padding: 0;
+}
+
+.pager_block ul li {
+	background: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	margin-right: 4px !important;
+}
+
+.pager_block ul .prev {
+	margin-left: 0px;
+}
+
+.pager_block ul .next a {}
+
+.pager_block ul li a {
+	font-size: 12px;
+	color: var(--txtColor88);
+	border: 1px solid var(--bdColor058);
+	padding: 0px 12px;
+	border-radius: 3px;
+	transition: .4s ease-out;
+	text-decoration: none;
+}
+
+.pager_block ul li a:hover {
+	background: #f3f3f9;
+	border: 1px solid #f3f3f9;
+}
+
+.pager_block ul .on {
+	color: var(--txtColor02);
+	background: var(--bgColor121);
+	border: 1px solid var(--bdColor057);
+}
+
+.pager_block ul li:hover a {
+	background: #f3f3f9;
+	border: 1px solid #f3f3f9;
+}
+
+
+.pager_block ul .prev {}
+
+.pager_block ul .first,
+.pager_block ul .last {
+	position: relative;
+}
+
+.pager_block ul .first a,
+.pager_block ul .last a,
+.pager_block ul .next a,
+.pager_block ul .prev a {
+	color: var(--txtColor93);
+}
+
+.pager_block ul .first span,
+.pager_block ul .last span {
+	position: relative;
+}
+
+.pager_block ul .first span::after {
+	content: "";
+	width: 1px;
+	height: 10px;
+	background-color: var(--bgColor124) !important;
+	position: absolute;
+	top: 50%;
+	left: 57%;
+	transform: translate(25px, -50%);
+}
+
+.pager_block ul .last span::after {
+	content: "";
+	width: 1px;
+	height: 10px;
+	background-color: var(--bgColor124);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-22px, -50%);
+}
+
+.pager_block ul li.first:hover a,
+.pager_block ul li.prev:hover a,
+.pager_block ul li.next:hover a,
+.pager_block ul li.last:hover a {
+	color: var(--txtColor89);
+	background: var(--bgColor092);
+	border: 1px solid var(--bdColor058);
+}
+
+
+
+/*animation*/
+/*start animation*/
+
+.activePlay {
+	-webkit-animation: bounce 1s infinite;
+	animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+	0% {
+		transform: translate(-50%, -50%);
+	}
+
+	50% {
+		transform: translate(-50%, -45%);
+	}
+
+	100% {
+		transform: translate(-50%, -50%);
+	}
+}
+
+.aniTab {
+	-webkit-animation: aniTab 1s infinite;
+	animation: aniTab 1s infinite;
+}
+
+@keyframes aniTab {
+	0% {
+		color: var(--txtColor02);
+		transform: scale(1);
+
+	}
+
+	50% {
+		color: var(--txtColor02);
+		transform: scale(1.1);
+	}
+
+	100% {
+		color: var(--txtColor02);
+		transform: scale(1);
+	}
+}
+
+@keyframes leftIn {
+	0% {
+		-webkit-transform: translateX(50%);
+		-moz-transform: translateX(50%);
+		-o-transform: translateX(50%);
+		transform: translateX(50%);
+		opacity: 0
+	}
+
+	to {
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-o-transform: translateX(0);
+		transform: translateX(0);
+		opacity: 1
+	}
+}
+
+@keyframes topIn {
+	0% {
+		-webkit-transform: translateY(-200%);
+		-moz-transform: translateY(-200%);
+		-o-transform: translateY(-200%);
+		transform: translateY(-200%);
+		opacity: 0
+	}
+
+	to {
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1
+	}
+}
+
+@keyframes downIn {
+	0% {
+		-webkit-transform: translateY(50%);
+		-moz-transform: translateY(50%);
+		-o-transform: translateY(50%);
+		transform: translateY(50%);
+		opacity: 0
+	}
+
+	to {
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1
+	}
+}
+
+/*RWD*/
+
+@media (max-width:1620px) {
+	.gameZoneA .slotZone ul li.slotLobby ul li {
+		width: 30%;
+	}
+}
+
+@media (max-width:1565px) {}
+
+@media (max-width:1500px) {
+	.gameZoneA .slotZone ul li.slotLobby ul li {
+		width: 31%;
+	}
+}

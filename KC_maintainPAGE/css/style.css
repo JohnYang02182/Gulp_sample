@@ -1,0 +1,465 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ozxvph');
+  src:  url('fonts/icomoon.eot?ozxvph#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ozxvph') format('truetype'),
+    url('fonts/icomoon.woff?ozxvph') format('woff'),
+    url('fonts/icomoon.svg?ozxvph#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icconGendar:before {
+  content: "\e991";
+}
+.icon-icconMoneyKOREA:before {
+  content: "\e990";
+}
+.icon-icconANDROID:before {
+  content: "\e98e";
+}
+.icon-icconIOS:before {
+  content: "\e98f";
+}
+.icon-icconPOKER01:before {
+  content: "\e98a";
+}
+.icon-icconPOKER02:before {
+  content: "\e98b";
+}
+.icon-icconPOKER03:before {
+  content: "\e98c";
+}
+.icon-icconPOKER04:before {
+  content: "\e98d";
+}
+.icon-icconVERIFI:before {
+  content: "\e988";
+}
+.icon-icconRECOMMEND:before {
+  content: "\e989";
+}
+.icon-icconPC:before {
+  content: "\e987";
+}
+.icon-icconMan:before {
+  content: "\e980";
+}
+.icon-icconPW:before {
+  content: "\e981";
+}
+.icon-icconCALENDAR:before {
+  content: "\e982";
+}
+.icon-icconMOBILE:before {
+  content: "\e983";
+}
+.icon-icconPARTNER:before {
+  content: "\e984";
+}
+.icon-icconBANK:before {
+  content: "\e985";
+}
+.icon-icconCHECK:before {
+  content: "\e986";
+}
+.icon-iconExclamation01:before {
+  content: "\e97f";
+}
+.icon-icconInfo02:before {
+  content: "\e97e";
+}
+.icon-icconMailList01:before {
+  content: "\e97a";
+}
+.icon-icconMailCheck01:before {
+  content: "\e97b";
+}
+.icon-icconMail01a:before {
+  content: "\e97c";
+}
+.icon-icconMail02a:before {
+  content: "\e97d";
+}
+.icon-icconArrow02:before {
+  content: "\e979";
+}
+.icon-icconX02:before {
+  content: "\e978";
+}
+.icon-icconCheck01:before {
+  content: "\e976";
+}
+.icon-icconCheck02:before {
+  content: "\e977";
+}
+.icon-icconDbonus:before {
+  content: "\e974";
+}
+.icon-icconVip:before {
+  content: "\e975";
+}
+.icon-icconChecking:before {
+  content: "\e973";
+}
+.icon-icconALLnew:before {
+  content: "\e972";
+}
+.icon-BetradarVFAS:before {
+  content: "\e967";
+}
+.icon-BetradarVFNC:before {
+  content: "\e968";
+}
+.icon-BetradarVFWC:before {
+  content: "\e969";
+}
+.icon-BetradarVFEC:before {
+  content: "\e96a";
+}
+.icon-BetradarVFLM:before {
+  content: "\e96b";
+}
+.icon-BetradarVFCC:before {
+  content: "\e96c";
+}
+.icon-BetradarVBL:before {
+  content: "\e96d";
+}
+.icon-BetradarVHK:before {
+  content: "\e96e";
+}
+.icon-BetradarVDK:before {
+  content: "\e96f";
+}
+.icon-BetradarVTI:before {
+  content: "\e970";
+}
+.icon-BetradarVBI:before {
+  content: "\e971";
+}
+.icon-icconMGP:before {
+  content: "\e962";
+}
+.icon-icconPRG:before {
+  content: "\e963";
+}
+.icon-icconPG1:before {
+  content: "\e964";
+}
+.icon-icconPT3:before {
+  content: "\e965";
+}
+.icon-icconIDN:before {
+  content: "\e966";
+}
+.icon-icconService01:before {
+  content: "\e95f";
+}
+.icon-icconAPP:before {
+  content: "\e960";
+}
+.icon-icconCooperation:before {
+  content: "\e961";
+}
+.icon-icconMaintain:before {
+  content: "\e95e";
+}
+.icon-icconMailList:before {
+  content: "\e95a";
+}
+.icon-icconMailCheck:before {
+  content: "\e95b";
+}
+.icon-icconMailDelete:before {
+  content: "\e95c";
+}
+.icon-icconMail01:before {
+  content: "\e95d";
+}
+.icon-icconInfo01:before {
+  content: "\e959";
+}
+.icon-icconV01:before {
+  content: "\e951";
+}
+.icon-icconV02:before {
+  content: "\e952";
+}
+.icon-icconV03:before {
+  content: "\e953";
+}
+.icon-icconV04:before {
+  content: "\e954";
+}
+.icon-icconV05:before {
+  content: "\e958";
+}
+.icon-icconV06:before {
+  content: "\e955";
+}
+.icon-icconV07:before {
+  content: "\e956";
+}
+.icon-icconV08:before {
+  content: "\e957";
+}
+.icon-icconLOAD:before {
+  content: "\e94f";
+}
+.icon-icconCD:before {
+  content: "\e950";
+}
+.icon-icconMoney:before {
+  content: "\e94d";
+}
+.icon-icconVIP:before {
+  content: "\e94e";
+}
+.icon-icconBonus:before {
+  content: "\e94b";
+}
+.icon-icconVR:before {
+  content: "\e94c";
+}
+.icon-icconHint:before {
+  content: "\e94a";
+}
+.icon-icconFavor:before {
+  content: "\e942";
+}
+.icon-icconFavorFull:before {
+  content: "\e943";
+}
+.icon-icconALL:before {
+  content: "\e944";
+}
+.icon-icconMG:before {
+  content: "\e945";
+}
+.icon-icconAG:before {
+  content: "\e946";
+}
+.icon-icconHABA:before {
+  content: "\e947";
+}
+.icon-icconPP:before {
+  content: "\e948";
+}
+.icon-icconPG:before {
+  content: "\e949";
+}
+.icon-icconlogin:before {
+  content: "\e940";
+}
+.icon-icconReg:before {
+  content: "\e941";
+}
+.icon-iiconLogoA:before {
+  content: "\e92c";
+}
+.icon-iiconLogoB:before {
+  content: "\e92d";
+}
+.icon-iiconDice:before {
+  content: "\e92e";
+}
+.icon-iiconSlote:before {
+  content: "\e92f";
+}
+.icon-iiconGame:before {
+  content: "\e930";
+}
+.icon-iiconPoker:before {
+  content: "\e931";
+}
+.icon-iiconSpeaker:before {
+  content: "\e932";
+}
+.icon-iiconRing:before {
+  content: "\e933";
+}
+.icon-iiconPolicy:before {
+  content: "\e934";
+}
+.icon-iiconGood:before {
+  content: "\e935";
+}
+.icon-iiconMail:before {
+  content: "\e936";
+}
+.icon-iiconMember:before {
+  content: "\e937";
+}
+.icon-iiconDeposit:before {
+  content: "\e938";
+}
+.icon-iiconWithdraw:before {
+  content: "\e939";
+}
+.icon-iiconListA:before {
+  content: "\e93a";
+}
+.icon-iiconListB:before {
+  content: "\e93b";
+}
+.icon-iiconService:before {
+  content: "\e93c";
+}
+.icon-iiconCell:before {
+  content: "\e93d";
+}
+.icon-iiconDownload:before {
+  content: "\e93e";
+}
+.icon-iiconFriend:before {
+  content: "\e93f";
+}
+.icon-iconLockB:before {
+  content: "\e92b";
+}
+.icon-iconARupB:before {
+  content: "\e929";
+}
+.icon-iconARdownB:before {
+  content: "\e92a";
+}
+.icon-iconTrash:before {
+  content: "\e928";
+}
+.icon-iconCalendar:before {
+  content: "\e926";
+}
+.icon-iconSand:before {
+  content: "\e927";
+}
+.icon-iconPorkA:before {
+  content: "\e922";
+}
+.icon-iconPorkB:before {
+  content: "\e923";
+}
+.icon-iconPorkC:before {
+  content: "\e924";
+}
+.icon-iconPorkD:before {
+  content: "\e925";
+}
+.icon-fa-star:before {
+  content: "\e920";
+}
+.icon-fa-star-o:before {
+  content: "\e921";
+}
+.icon-iconARleftA:before {
+  content: "\e91f";
+}
+.icon-iconPlay:before {
+  content: "\e918";
+}
+.icon-iconGo:before {
+  content: "\e919";
+}
+.icon-iconStar:before {
+  content: "\e91a";
+}
+.icon-iconARupA:before {
+  content: "\e91b";
+}
+.icon-iconARdownA:before {
+  content: "\e91c";
+}
+.icon-iconLive:before {
+  content: "\e91d";
+}
+.icon-iconJump:before {
+  content: "\e91e";
+}
+.icon-iconReloadA:before {
+  content: "\e913";
+}
+.icon-iconARup01:before {
+  content: "\e914";
+}
+.icon-iconARdown01:before {
+  content: "\e915";
+}
+.icon-iconPlus:before {
+  content: "\e916";
+}
+.icon-iconLock1:before {
+  content: "\e917";
+}
+.icon-iconInformation:before {
+  content: "\e912";
+}
+.icon-iconMessage:before {
+  content: "\e911";
+}
+.icon-iconARup:before {
+  content: "\e90f";
+}
+.icon-iconARdown:before {
+  content: "\e910";
+}
+.icon-iconTime:before {
+  content: "\e90d";
+}
+.icon-iconReload:before {
+  content: "\e90e";
+}
+.icon-iconMoney:before {
+  content: "\e90c";
+}
+.icon-fa-heart:before {
+  content: "\e90a";
+}
+.icon-fa-heart-o:before {
+  content: "\e90b";
+}
+.icon-iconBank:before {
+  content: "\e909";
+}
+.icon-iconMobile:before {
+  content: "\e907";
+}
+.icon-iconComputer:before {
+  content: "\e908";
+}
+.icon-iconExclamation:before {
+  content: "\e906";
+}
+.icon-iconCheck:before {
+  content: "\e905";
+}
+.icon-iconCross:before {
+  content: "\e902";
+}
+.icon-iconUser:before {
+  content: "\e903";
+}
+.icon-iconLock:before {
+  content: "\e904";
+}
+.icon-iconArrowL:before {
+  content: "\e900";
+}
+.icon-iconArrowR:before {
+  content: "\e901";
+}

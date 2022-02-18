@@ -1,0 +1,915 @@
+.liveCasinoPage {
+	animation: none !important;
+}
+
+.casinoZone {
+	/*background-image: url(../common/lobbyBG.png);*/
+	background-size: cover;
+	width: 100%;
+	padding-bottom: 55%;
+	transition: .4s ease-out;
+	position: relative;
+	/* margin-bottom: 24vh; */
+}
+
+.webp .casinoZone {
+	background-image: url(../common/lobbyBG.webp);
+}
+
+.no-webp .casinoZone {
+	background-image: url(../common/lobbyBG.png);
+}
+
+.casinoZone .casinoWrapper {
+	width: 92%;
+	height: 90%;
+	position: absolute;
+	top: 54%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.casinoZone .casinoWrapper .title {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.casinoZone .casinoWrapper .title .leftZone {
+	color: var(--txtColor71);
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 18.5vw;
+	transform: translateZ(0px);
+	margin-right: 1vw;
+}
+
+.casinoZone .casinoWrapper .title .leftZone span.icon-iiconLogoB {
+	font-size: 2.3vw;
+	margin-right: 4px;
+}
+
+.casinoZone .casinoWrapper .title .leftZone h4 {
+	font-size: 1.4vw;
+	margin-right: 0.5vw;
+}
+
+.casinoZone .casinoWrapper .title .leftZone span {
+	color: var(--txtColor65);
+	font-size: 1.4vw;
+}
+
+.casinoZone .casinoWrapper .title .line {
+	height: 2px;
+	width: 82vw;
+	background-color: var(--bgColor085);
+	position: relative;
+}
+
+.casinoZone .casinoWrapper .title .line::before {
+	content: "";
+	width: 8px;
+	height: 8px;
+	background-color: var(--bgColor085);
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	transform: translate(-50%, -50%);
+}
+
+.casinoZone .casinoWrapper .content {
+	display: flex;
+	align-items: start;
+	justify-content: space-around;
+	margin-top: 4vh;
+}
+
+.casinoZone .casinoWrapper .content .leftFrame {
+	width: 55%;
+	position: relative;
+	animation: rightIn .4s;
+	/*/*animation-delay: .33s;*/
+	animation-fill-mode: forwards;
+	opacity: 0;
+	min-height: 695px;
+}
+
+.casinoZone .casinoWrapper .content .leftZone {
+	background-image: url(../Live/images/liveCasino_bg.png);
+	background-size: cover;
+	width: 91%;
+	padding-bottom: 105%;
+	position: relative;
+	/*/*animation-delay: .33s;*/
+}
+
+.casinoZone .casinoWrapper .content .leftZone .obj {
+	background-image: url(../Live/images/obj01.png);
+	background-repeat: no-repeat;
+	width: 119%;
+	height: 0px;
+	padding-bottom: 91%;
+	background-size: cover;
+	position: absolute;
+	margin-left: -14%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone {
+	width: 45%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .txt {
+	margin-bottom: 27px;
+	position: relative;
+	z-index: 3;
+	width: 100%;
+	text-align: justify;
+	animation: topIn .4s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .txt h2 {
+	color: var(--txtColor72);
+	font-size: 1.5vw;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .txt p {
+	color: var(--txtColor66);
+	line-height: 1.6;
+	font-size: 0.6vw;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btnA {
+	background: rgb(242, 208, 155);
+	background: linear-gradient(0deg, rgba(242, 208, 155, 1) 0%, rgba(219, 184, 151, 1) 34%, rgba(142, 112, 84, 1) 100%);
+	position: relative;
+	border-radius: 50px;
+	padding: 28px 91px;
+	color: var(--txtColor74);
+	transition: .3s ease-out;
+	display: inline-block;
+	margin-top: 28px;
+	cursor: pointer;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btnA .btnAinner {
+	width: 97%;
+	height: 97%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgb(255, 238, 211);
+	background: linear-gradient(90deg, rgba(255, 238, 211, 1) 0%, rgba(219, 184, 151, 1) 75%, rgba(201, 170, 141, 1) 100%);
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 21px;
+	font-weight: bold;
+	box-shadow: var(--shadow08) 0em 0em 0.6em;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btnA:hover {
+	color: var(--txtColor02);
+}
+
+.casinoZone .casinoWrapper .content .rightZone .obj {
+	background-image: url(../Live/images/obj02.png);
+	background-repeat: no-repeat;
+	width: 68%;
+	height: 0px;
+	padding-bottom: 82%;
+	background-size: cover;
+	position: absolute;
+	top: -42%;
+	/* left: 11%; */
+	z-index: 2;
+	opacity: 0.8;
+	transition: .4s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns {
+	z-index: 3;
+	position: relative;
+	animation: leftIn .4s;
+	/*animation-delay: .33s;*/
+	animation-fill-mode: forwards;
+	opacity: 0;
+	min-height: 560px;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: start;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li {
+	width: 31.5%;
+	height: 150px;
+	border: 1px solid var(--bdColor038);
+	border-radius: 10px;
+	box-shadow: 2px 4px 5px 1px rgb(167 181 204 / 35%), inset 0px 0px 6px 1px rgb(255 255 255 / 75%);
+	padding-bottom: 23px;
+	margin-bottom: 21px;
+	background: var(--bgColor073);
+	background: linear-gradient(360deg, var(--bgColor074_gs) 0%, var(--bgColor074_ge) 100%);
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	margin-right: 1.5%;
+}
+
+/*ppPro_start*/
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .ppPro {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .ppPro img {
+	width: 3.5vw;
+}
+
+/*ppPro_end*/
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .logo {
+	position: absolute;
+	right: 5%;
+	top: 7%;
+	z-index: 2;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='WmReal'] .logoA {
+	background-image: url(../Live/images/casinoLogo01.svg);
+	width: 12%;
+	padding-bottom: 12.1%;
+	transition: .3s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='WmReal']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo01_h.svg);
+}
+
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='WmReal'] .logoA {
+	background-image: url(../Live/images/casinoLogo01.svg);
+	width: 12%;
+	padding-bottom: 12.1%;
+	transition: .3s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='WmReal']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo01_h.svg);
+}
+
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='AgBr'] .logoA {
+	background-image: url(../Live/images/casinoLogo02.svg);
+	width: 20%;
+	padding-bottom: 11.1%;
+	transition: .3s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='AgBr']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo02_h.svg);
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='AgBr'] .logoA {
+	background-image: url(../Live/images/casinoLogo02.svg);
+	width: 20%;
+	padding-bottom: 11.1%;
+	transition: .3s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='AgBr']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo02_h.svg);
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='AllBetReal'] .logoA {
+	background-image: url(../Live/images/casinoLogo03.svg);
+	width: 20.2%;
+	padding-bottom: 12.1%;
+	transition: .3s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='AllBetReal']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo03_h.svg);
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='AllBetReal'] .logoA {
+	background-image: url(../Live/images/casinoLogo03.svg);
+	width: 20.2%;
+	padding-bottom: 12.1%;
+	transition: .3s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='AllBetReal']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo03_h.svg);
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='MgpReal'] .logoA {
+	background-image: url(../Live/images/casinoLogo04.svg);
+	width: 11.2%;
+	padding-bottom: 11.1%;
+	transition: .3s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='MgpReal']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo04_h.svg);
+}
+
+
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='MgpReal'] .logoA {
+	background-image: url(../Live/images/casinoLogo04.svg);
+	width: 11.2%;
+	padding-bottom: 11.1%;
+	transition: .3s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='MgpReal']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo04_h.svg);
+}
+
+
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='PrgReal'] .logoA {
+	background-image: url(../Live/images/casinoLogo05.svg);
+	width: 11.3%;
+	padding-bottom: 16.6%;
+	transition: .3s ease-out;
+	right: 5%;
+	top: 4%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='PrgReal']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo05_h.svg);
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='PrgReal'] .logoA {
+	background-image: url(../Live/images/casinoLogo05.svg);
+	width: 11.3%;
+	padding-bottom: 16.6%;
+	transition: .3s ease-out;
+	right: 5%;
+	top: 4%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='PrgReal']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo05_h.svg);
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='EvoReal'] .logoA {
+	background-image: url(../Live/images/casinoLogo06.svg);
+	width: 29%;
+	padding-bottom: 11.1%;
+	transition: .3s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='EvoReal']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo06_h.svg);
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='OgReal'] .logoA {
+	background-image: url(../Live/images/casinoLogo07.svg);
+	width: 16%;
+	padding-bottom: 13.1%;
+	transition: .3s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='OgReal']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo07_h.svg);
+}
+
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='OgReal'] .logoA {
+	background-image: url(../Live/images/casinoLogo07.svg);
+	width: 16%;
+	padding-bottom: 13.1%;
+	transition: .3s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='OgReal']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo07_h.svg);
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='DgReal'] .logoA {
+	background-image: url(../Live/images/casinoLogo08.svg);
+	width: 23%;
+	padding-bottom: 11.1%;
+	transition: .3s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='DgReal'] .logoA {
+	background-image: url(../Live/images/casinoLogo08.svg);
+	width: 23%;
+	padding-bottom: 11.1%;
+	transition: .3s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='DgReal']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo08_h.svg);
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='GpiLive'] .logoA {
+	background-image: url(../Live/images/casinoLogo09.svg);
+	width: 11%;
+	padding-bottom: 11.1%;
+	transition: .3s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='GpiLive']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo09_h.svg);
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='BgReal'] .logoA {
+	background-image: url(../Live/images/casinoLogo010.svg);
+	width: 11%;
+	padding-bottom: 9.1%;
+	transition: .3s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='BgReal']:hover .logoA {
+	background-image: url(../Live/images/casinoLogo010_h.svg);
+}
+
+
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .model {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 0px;
+	margin-top: 10px;
+	transition: .3s ease-out;
+	position: absolute;
+	z-index: 2;
+	margin: 0 auto;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='WmReal'] .modelA {
+	background-image: url(../Live/images/casino01.png);
+	padding-bottom: 55%;
+	top: 5%;
+	left: -7%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='WmReal'] .modelA {
+	background-image: url(../Live/images/casino01.png);
+	padding-bottom: 55%;
+	top: 5%;
+	left: -7%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='AgBr'] .modelA {
+	background-image: url(../Live/images/casino02.png);
+	padding-bottom: 55%;
+	width: 68%;
+	left: 13%;
+	top: 3%;
+}
+
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='AllBetReal'] .modelA {
+	background-image: url(../Live/images/casino03.png);
+	padding-bottom: 55%;
+	width: 68%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='AllBetReal'] .modelA {
+	background-image: url(../Live/images/casino03.png);
+	padding-bottom: 55%;
+	width: 68%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='MgpReal'] .modelA {
+	background-image: url(../Live/images/casino04.png);
+	padding-bottom: 55%;
+	width: 94%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='MgpReal'] .modelA {
+	background-image: url(../Live/images/casino04.png);
+	padding-bottom: 55%;
+	width: 94%;
+	margin-top: 2%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='PrgReal'] .modelA {
+	background-image: url(../Live/images/casino05.png);
+	padding-bottom: 56%;
+	width: 78%;
+	left: 13%;
+	top: 4%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='PrgReal'] .modelA {
+	background-image: url(../Live/images/casino05.png);
+	padding-bottom: 56%;
+	width: 78%;
+	left: 13%;
+	top: 4%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='EvoReal'] .modelA {
+	background-image: url(../Live/images/casino06.png);
+	padding-bottom: 55%;
+	width: 77%;
+	left: 13%;
+	top: 4%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='EvoReal'] .modelA {
+	background-image: url(../Live/images/casino06.png);
+	padding-bottom: 58%;
+	width: 81%;
+	left: 13%;
+	top: 4%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='OgReal'] .modelA {
+	background-image: url(../Live/images/casino07.png);
+	padding-bottom: 55%;
+	width: 93%;
+	left: 4%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='OgReal'] .modelA {
+	background-image: url(../Live/images/casino07.png);
+	padding-bottom: 55%;
+	width: 93%;
+	left: 4%;
+	margin-top: 2%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='DgReal'] .modelA {
+	background-image: url(../Live/images/casino08.png);
+	padding-bottom: 55%;
+	width: 73%;
+	left: 14%;
+	top: 12px;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='DgReal'] .modelA {
+	background-image: url(../Live/images/casino08.png);
+	padding-bottom: 55%;
+	width: 73%;
+	left: 14%;
+	top: 12px;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='AllBetReal'] .modelA {
+	background-image: url(../Live/images/casino03.png);
+	padding-bottom: 55%;
+	width: 100%;
+	margin-top: 3%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='GpiLive'] .modelA {
+	background-image: url(../Live/images/casino09.png);
+	padding-bottom: 57%;
+	width: 74%;
+	margin-top: 3%;
+	left: 13%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='BgReal'] .modelA {
+	/*background-image: url(../Live/images/casino010.png);*/
+	padding-bottom: 57%;
+	width: 74%;
+	margin-top: 3%;
+	left: 13%;
+}
+
+.webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='BgReal'] .modelA {
+	background-image: url(../Live/images/casino010.webp);
+}
+
+.no-webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box='BgReal'] .modelA {
+	background-image: url(../Live/images/casino010.png);
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .model {
+	background-position-y: 5px;
+}
+
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .logo {}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .txt01 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 2;
+	position: absolute;
+	bottom: 13px;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .txt01 h2 {
+	font-size: 0.9vw;
+	color: var(--txtColor73);
+	font-family: arial;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .txt01 span {
+	font-size: 0.4vw;
+	color: var(--txtColor73);
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .txt01 h2,
+.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .txt01 span {
+	color: var(--txtColor02);
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .mask {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: var(--bgColor075);
+	background: linear-gradient(0deg, var(--bgColor076_g01) 0%, var(--bgColor076_g02) 40%, var(--bgColor076_g03) 100%);
+	border-radius: 8px;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	display: none;
+	transition: .4s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .mask .inner {
+	width: 99%;
+	height: 99%;
+	background: var(--bgColor077);
+	background: linear-gradient(180deg, var(--bgColor078_g01) 0%, var(--bgColor078_g02) 75%, var(--bgColor078_g03) 100%);
+	border-radius: 8px;
+	z-index: 1;
+	display: none;
+	transition: .4s ease-out;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .mask,
+.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .inner {
+	display: flex;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.maintainGo .maintain {
+	display: flex;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .maintain {
+	display: none;
+	background-color: var(--bgColor084);
+	border: 1px solid var(--bdColor052);
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .maintain span {
+	font-size: 4.5vw;
+	color: var(--txtColor85);
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .maintain h4 {
+	color: var(--txtColor85);
+	font-size: 0.7vw;
+	font-weight: bold;
+	margin-top: 3%;
+	font-family: arial;
+}
+
+/*coming_start*/
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .come {
+	display: none;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming {
+	cursor: auto;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .come img {
+	width: 100%;
+	height: auto;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .come {
+	display: flex !important;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 85%;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .logoA {
+	display: none;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .modelA {
+	display: none;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .txt01 {
+	display: none;
+}
+
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .mask {
+	display: none;
+}
+
+/*coming_end*/
+
+
+/*animation*/
+
+/*animation*/
+.aniLogo {
+	-webkit-animation: aniLogo 1.5s infinite;
+	animation: aniLogo 1.5s infinite;
+}
+
+@keyframes aniLogo {
+	0% {
+		background-position-y: 0px;
+		transform: scale(1);
+	}
+
+	50% {
+		background-position-y: 5px;
+		transform: scale(1.03);
+	}
+
+	100% {
+		background-position-y: 0px;
+		transform: scale(1);
+	}
+}
+
+.aniLogo01 {
+	-webkit-animation: aniLogo01 2.6s infinite;
+	animation: aniLogo01 2.6s infinite;
+}
+
+@keyframes aniLogo01 {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.01);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.aniLogo02 {
+	-webkit-animation: aniLogo02 1s infinite;
+	animation: aniLogo02 1s infinite;
+}
+
+@keyframes aniLogo02 {
+	0% {
+		background-position-y: 0px;
+		transform: scale(1);
+	}
+
+	50% {
+		background-position-y: 5px;
+		transform: scale(1.01);
+	}
+
+	100% {
+		background-position-y: 0px;
+		transform: scale(1);
+	}
+}
+
+.aniLogo03 {
+	-webkit-animation: aniLogo03 1s infinite;
+	animation: aniLogo03 1s infinite;
+}
+
+@keyframes aniLogo03 {
+	0% {
+		background-position-y: 0px;
+	}
+
+	50% {
+		background-position-y: 2px;
+	}
+
+	100% {
+		background-position-y: 0px;
+	}
+}
+
+
+
+/*rwd*/
+
+@media (max-width:1350px) {
+	.casinoZone .casinoWrapper .content .rightZone .btns ul li {
+		height: 127px;
+	}
+
+	.casinoZone .casinoWrapper .content .rightZone .btns ul li .txt01 h2 {}
+
+	.casinoZone .casinoWrapper .content .rightZone .btns ul li .txt01 span {
+		font-size: 12px;
+	}
+
+	.casinoZone .casinoWrapper .content .rightZone .txt h2 {
+		font-size: 22px;
+	}
+
+	.casinoZone .casinoWrapper .content .rightZone .txt p {
+		font-size: 14px;
+	}
+}
+
+@media (max-width:1200px) {
+	.casinoZone .casinoWrapper .content .rightZone .btns ul li {
+		height: 115px;
+	}
+}
+
+
+@media (max-width:963px) {
+	.casinoZone .casinoWrapper .content .rightZone .btns ul li {
+		height: 100px;
+	}
+}
+
+@keyframes leftIn {
+	0% {
+		-webkit-transform: translateX(50%);
+		-moz-transform: translateX(50%);
+		-o-transform: translateX(50%);
+		transform: translateX(50%);
+		opacity: 0
+	}
+
+	to {
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-o-transform: translateX(0);
+		transform: translateX(0);
+		opacity: 1
+	}
+}
+
+@keyframes rightIn {
+	0% {
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
+		opacity: 0
+	}
+
+	to {
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-o-transform: translateX(0);
+		transform: translateX(0);
+		opacity: 1
+	}
+}
+
+@keyframes topIn {
+	0% {
+		-webkit-transform: translateY(-300%);
+		-moz-transform: translateY(-300%);
+		-o-transform: translateY(-300%);
+		transform: translateY(-300%);
+		opacity: 0
+	}
+
+	to {
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1
+	}
+}

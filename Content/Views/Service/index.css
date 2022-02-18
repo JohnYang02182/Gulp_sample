@@ -1,0 +1,334 @@
+/*service_start*/
+/*serviceFrame*/
+
+.serviceFrame {}
+
+.serviceFrame .serviceOuter {}
+
+.serviceFrame .serviceOuter .serviceArea {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.serviceFrame .serviceOuter .serviceArea .tAreaFrame {
+	display: flex;
+	width: 100%;
+	position: relative;
+	border-top: 2px solid var(--bdColor061);
+	border-bottom: 1px solid var(--bdColor061);
+	margin-top: 10px;
+}
+
+.serviceFrame .serviceOuter .serviceArea .txt {
+	font-size: 16px;
+	font-weight: bold;
+	width: 12%;
+	color: var(--txtColor102);
+	background-color: var(--bgColor123);
+	display: flex;
+	align-items: center;
+	padding-left: 25px;
+}
+
+.serviceFrame .serviceOuter .serviceArea .areaFrame {
+	/* height: 310px; */
+	background-color: var(--bgColor017);
+	width: 95%;
+	padding: 10px 0px 10px 20px;
+}
+
+.serviceFrame .serviceOuter .serviceArea .areaFrame textarea {
+	height: 312px;
+	background-color: var(--bgColor017);
+	border: 1px solid var(--bdColor013);
+	width: 100%;
+	padding: 20px;
+	color: var(--txtColor93);
+	font-size: 14px;
+	border-radius: 5px;
+	line-height: 1.6;
+}
+
+.serviceFrame .serviceArea .sendMSG {
+	background-color: rgba(244, 244, 244, 0.95);
+	color: var(--txtColor66);
+	font-size: 14px;
+	width: 240px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: var(--shadow07) 0em 0em 0.5em;
+	border-radius: 20px;
+	left: 50%;
+	bottom: -11px;
+	transform: translateX(-50%);
+	position: absolute;
+	opacity: 0;
+}
+
+.serviceFrame .serviceOuter .serviceArea textarea:focus,
+.serviceFrame .serviceOuter .serviceArea textarea:focus-visible {
+	background-color: var(--bgColor017);
+	border: 1px solid var(--bdColor013) !important;
+	outline: none;
+}
+
+.serviceFrame .serviceOuter .serviceArea .inputFrame {
+	display: flex;
+	width: 100%;
+	text-align: center;
+	height: 42px;
+	margin-bottom: 17px;
+	align-items: center;
+	position: relative;
+}
+
+.serviceFrame .serviceOuter .serviceArea .inputFrame .txtT {
+	color: var(--txtColor66);
+	font-size: 14px;
+	font-weight: bold;
+	width: 5%;
+	text-align: left;
+}
+
+.serviceFrame .serviceOuter .serviceArea .input_content {
+	position: relative;
+	height: 42px;
+}
+
+
+.serviceFrame .serviceOuter .serviceArea .input_content input {
+	width: 100%;
+	height: 42px;
+	padding-left: 14px;
+	background-repeat: no-repeat;
+	margin-bottom: 8px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	color: var(--txtColor54);
+	background-color: var(--bgColor017);
+	border: 1px solid var(--bdColor045) !important;
+	font-size: 16px;
+}
+
+.serviceFrame .serviceOuter .serviceArea .input_content input::placeholder {
+	color: var(--txtColor010);
+	font-size: 14px;
+}
+
+.serviceFrame .serviceOuter .serviceArea .inputFrame .btnP {
+	padding: 14px 35px;
+	border-radius: 20px;
+	position: absolute;
+	right: 0px;
+}
+
+.serviceFrame .serviceOuter .serviceArea .inputFrame .input_txt {
+	color: var(--txtColor66);
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.serviceFrame .serviceOuter .btnZone {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0px;
+}
+
+.serviceFrame .serviceOuter .btnZone .btnP {
+	height: 40px;
+	padding: 0px 47px;
+	color: var(--txtColor02);
+	background-color: var(--btnColor033);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	float: right;
+	margin-top: 23px;
+	cursor: pointer;
+	border: 0px;
+	transition: .2s ease-out;
+}
+
+.serviceFrame .serviceOuter .btnZone .btnP:hover {
+	background-color: var(--btnColor033_h);
+}
+
+
+.serviceFrame .main_content_wrap_notice .listZone table tr td a.goService {
+	font-size: 12px;
+	color: var(--txtColor02);
+	display: block;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 3px;
+	margin: 0 auto;
+	font-weight: bold;
+	transition: .4s ease-out;
+}
+
+.serviceFrame a.done {
+	background-color: var(--btnColor016);
+}
+
+.serviceFrame a.done:hover {
+	background-color: var(--btnColor016_h);
+}
+
+.serviceFrame a.undone {
+	background-color: var(--btnColor014);
+}
+
+.serviceFrame a.undone:hover {
+	background-color: var(--btnColor014_h);
+}
+
+.serviceFrame a.write {
+	background-color: var(--btnColor017);
+}
+
+.serviceFrame a.write:hover {
+	background-color: var(--btnColor017_h);
+}
+
+.serviceFrame .letterZone {
+	padding: 26px 32px;
+	border-top: 1px solid var(--bdColor062);
+	background-color: var(--bgColor123);
+}
+
+.serviceFrame .letterBack {
+	padding: 26px 32px;
+	border-top: 1px solid var(--bdColor062);
+	background-color: var(--bgColor123);
+}
+
+.serviceFrame .letterZone .time {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	color: var(--txtColor66);
+	font-size: 14px;
+	font-weight: 100;
+	position: relative;
+	padding-bottom: 7px;
+}
+
+.serviceFrame .letterZone .time .name {
+	margin-right: 26px;
+	position: relative;
+}
+
+.serviceFrame .letterZone .time .name::after {
+	content: "";
+	width: 1px;
+	height: 13px;
+	background-color: var(--bgColor128);
+	position: absolute;
+	right: -12px;
+}
+
+.serviceFrame .letterZone .time span {}
+
+.serviceFrame .letterZone .time .btnP1 {
+	padding: 9px 14px;
+	border-radius: 20px;
+	position: absolute;
+	left: 0px;
+}
+
+.serviceFrame .letterZone p {
+	font-size: 12px;
+	color: var(--txtColor66);
+	margin-top: 12px;
+	line-height: 2;
+	text-align: justify;
+}
+
+.serviceFrame .btnFrame {
+	margin-top: 30px;
+}
+
+.serviceFrame .btnFrame .btnP1 {
+	height: 40px;
+	padding: 0px 47px;
+	color: var(--txtColor02);
+	background-color: var(--btnColor033);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	float: right;
+	margin-top: 23px;
+	cursor: pointer;
+	border: 0px;
+	transition: .2s ease-out;
+}
+
+.serviceFrame .btnFrame .btnP1:hover {
+	background-color: var(--btnColor033_h);
+}
+
+.serviceFrame .depositP {
+	line-height: 3.5 !important;
+}
+
+.serviceOuterReply {
+	display: none;
+	transition: .4s ease-out;
+}
+
+.btnReply01 {
+	display: none !important;
+}
+
+.btnReply01 .btnP1 {
+	font-size: 14px;
+	display: flex;
+	/* padding: 15px 100px; */
+	border-radius: 20px;
+	font-weight: bold;
+	transition: .4s ease-out;
+	cursor: pointer;
+	align-items: center;
+	width: 240px !important;
+}
+
+.btnReply02 .btnP1 {
+	font-size: 14px;
+	display: flex;
+	/* padding: 15px 100px; */
+	border-radius: 20px;
+	font-weight: bold;
+	transition: .4s ease-out;
+	cursor: pointer;
+	align-items: center;
+	width: 240px !important;
+}
+
+.serviceReplyFrame .serviceOuterReply {
+	display: block !important;
+}
+
+.serviceReplyFrame .timeReply {
+	display: none !important;
+}
+
+.serviceReplyFrame .btnReply {
+	display: none !important;
+}
+
+.serviceReplyFrame .btnReply01 {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+
+/*service_end*/

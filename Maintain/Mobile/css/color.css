@@ -1,0 +1,227 @@
+:root {
+  --bgColor01: #ffffff;
+  --bgColor02: #e7d0bb;
+  --bgColor03: #345069;
+  --bgColor04: #d1d1d1;
+  --bgColor05: #acacac;
+  --bgColor06: #f7f7f7;
+  --bgColor07: #c9aa8d;
+  --bgColor08: #f5f4f2;
+  --bgColor09: #e2e2e2;
+  --bgColor10: #dbb897;
+  --bgColor11: #a2a2a2;
+  --bgColor12: #f5f5f5;
+  --bgColor13: #000000;
+  --bgColor14: #eeeaeb;
+  --bgColor15: #197356;
+  --bgColor16: #27292e;
+  --bgColor17: #e4e4e4;
+  --bgColor18: #f3eee9;
+  --bgColor19: #eff1f6;
+  --bgColor20: #166c51;
+  --bgColor21: #0f0f0f;
+  --bgColor22: #dc3636;
+  --bgColor23: #f9f9f9;
+  --bgColor24: #989ca1;
+  --bgColor25: #f3f3f3;
+  --bgColor26: #7f96b6;
+  --bgColor27: #52aeca;
+  --bgColor30: #313644;
+
+  --bgColor01_op: rgba(18, 110, 81, 0.97);
+  --bgColor02_op: rgba(0, 0, 0, 0.8);
+  --bgColor03_op: rgba(0, 0, 0, 0.6);
+  --bgColor04_op: rgb(241, 241, 241, 0.1);
+  --bgColor05_op: rgba(0, 0, 0, 0.5);
+  --bgColor06_op: rgba(0, 0, 0, 0);
+  --bgColor07_op: rgba(0, 0, 0, 0.1);
+  --bgColor08_op: rgb(39, 41, 46, 0.95);
+  --bgColor09_op: rgba(0, 0, 0, 0.35);
+  --bgColor10_op: rgba(84, 69, 0, 0.35);
+  --bgColor11_op: rgb(52, 80, 105, 0.5);
+  --bgColor12_op: rgba(186, 193, 201, 0.6);
+  --bgColor13_op: rgba(183, 183, 183, 0.4);
+  --bgColor14_op: rgb(52, 80, 105, 0.35);
+  --bgColor15_op: rgb(255, 255, 255, 0.9);
+  --bgColor16_op: rgba(42, 42, 42, 0.32);
+
+  --bgColor_Grad01-00: #126e51;
+  --bgColor_Grad01-01: #31c798;
+  --bgColor_Grad02-00: #3c3d3e;
+  --bgColor_Grad02-01: #ababab;
+  --bgColor_Grad03-00: #4f68e1;
+  --bgColor_Grad03-01: #001ba1;
+  --bgColor_Grad04-00: #e01921;
+  --bgColor_Grad04-01: #761014;
+  --bgColor_Grad05-00: #f4f4f4;
+  --bgColor_Grad05-01: #e1e1e1;
+  --bgColor_Grad06-00: #efefef;
+  --bgColor_Grad06-01: #ffffff;
+  --bgColor_Grad07-00: #5875d7;
+  --bgColor_Grad07-01: #3555c0;
+  --bgColor_Grad08-00: #e63c3c;
+  --bgColor_Grad08-01: #ba1818;
+  --bgColor_Grad09-00: #f2d09b;
+  --bgColor_Grad09-01: #dbb897;
+  --bgColor_Grad09-02: #8e7054;
+
+  --bgColor_Grad10-00: #f4f4f4;
+  --bgColor_Grad10-01: #ffffff;
+
+  --txtColor01: #ffffff;
+  --txtColor02: #666666;
+  --txtColor03: #dbdbdb;
+  --txtColor04: #e5e5e5;
+  --txtColor05: #111111;
+  --txtColor06: #363636;
+  --txtColor07: #8e7054;
+  --txtColor08: #ededed;
+  --txtColor09: #28755b;
+  --txtColor10: #000000;
+  --txtColor11: #2f3137;
+  --txtColor12: #a5a6a6;
+  --txtColor13: #161616;
+  --txtColor14: #7f96b6;
+  --txtColor15: #7e7f86;
+  --txtColor16: #d11722;
+  --txtColor17: #18a071;
+  --txtColor18: #b6b6b6;
+  --txtColor19: #494c54;
+  --txtColor20: #d93e44;
+  --txtColor21: #ffe418;
+  --txtColor22: #d5d5d6;
+  --txtColor23: #ffba00;
+  --txtColor24: rgb(184, 184, 185, 0.5);
+  --txtColor25: #272729;
+  --txtColor26: #5875d7;
+  --txtColor27: #239f65;
+  --txtColor28: #342b24;
+  --txtColor29: #555555;
+  --txtColor30: #54728e;
+  --txtColor31: #c9aa8d;
+  --txtColor32: #dbb897;
+  --txtColor33: #6a7391;
+  --txtColor34: #345069;
+  --txtColor35: #907155;
+  --txtColor36: #c99463;
+  --txtColor37: #8ac7d7;
+  --txtColor38: #989ca1;
+  --txtColor39: #a3acc7;
+
+  --txtColor01_op: rgba(54, 54, 54, 0.8);
+
+  --txtColorFoot01: #bbbcc2;
+  --txtColorFoot02: #777777;
+  --txtColorFoot03: #939393;
+
+  --borderColor01: #ebebeb;
+  --borderColor02: #464648;
+  --borderColor03: #d5d5d5;
+  --borderColor04: #c3c3c3;
+  --borderColor05: #cacaca;
+  --borderColor06: #c3b9b9;
+  --borderColor07: #cfcfcf;
+  --borderColor08: #debea0;
+  --borderColor09: #dfdfdf;
+  --borderColor10: #dbb897;
+  --borderColor11: #aaaaaa;
+  --borderColor12: #3c3d40;
+  --borderColor13: #dbb897;
+  --borderColor14: #616469;
+  --borderColor15: #dec1a6;
+  --borderColor16: #ffffff;
+  --borderColor17: #342b24;
+  --borderColor18: #393d46;
+  --borderColor19: #c7b09b;
+  --borderColor20: rgb(189, 198, 211, 0.5);
+
+  --borderColor01_op: rgb(57, 62, 82, 0.6);
+  --borderColor02_op: rgb(191, 191, 191, 0.5);
+
+  --btnColor01: #7e9c22;
+  --btnColor02: #2d2f35;
+  --btnColor03: #eaeaea;
+  --btnColor04: #7f96b6;
+  --btnColor05: #73747d;
+  --btnColor06: #dc3636;
+  --btnColor07: #242528;
+  --btnColor08: #8e7054;
+  --btnColor09: #56575e;
+  --btnColor10: #4f6dc3;
+  --btnColor11: #c9aa8d;
+  --btnColor12: #ffffff;
+  --btnColor13: #d93e44;
+  --btnColor14: #ececec;
+  --btnColor15: #3cb878;
+
+  --btnLevelColor01: #ed1b23;
+  --btnLevelColor02: #ed601b;
+  --btnLevelColor03: #edb41b;
+  --btnLevelColor04: #0ab040;
+  --btnLevelColor05: #0884be;
+  --btnLevelColor06: #312ba8;
+  --btnLevelColor07: #6c27a7;
+}
+
+/* 首頁border漸層 Type */
+.line-gradient {
+  background: var(--bgColor_Grad01-00);
+  background: -webkit-linear-gradient(left, var(--bgColor_Grad01-00) 0%, var(--bgColor_Grad01-01) 18%, var(--bgColor_Grad01-00) 37%, var(--bgColor_Grad01-00) 59%, var(--bgColor_Grad01-01) 80%, var(--bgColor_Grad01-00) 100%);
+  background: -moz-linear-gradient(left, var(--bgColor_Grad01-00) 0%, var(--bgColor_Grad01-01) 18%, var(--bgColor_Grad01-00) 37%, var(--bgColor_Grad01-00) 59%, var(--bgColor_Grad01-01) 80%, var(--bgColor_Grad01-00) 100%);
+  background: -o-linear-gradient(left, var(--bgColor_Grad01-00) 0%, var(--bgColor_Grad01-01) 18%, var(--bgColor_Grad01-00) 37%, var(--bgColor_Grad01-00) 59%, var(--bgColor_Grad01-01) 80%, var(--bgColor_Grad01-00) 100%);
+  background: linear-gradient(to right, var(--bgColor_Grad01-00) 0%, var(--bgColor_Grad01-01) 18%, var(--bgColor_Grad01-00) 37%, var(--bgColor_Grad01-00) 59%, var(--bgColor_Grad01-01) 80%, var(--bgColor_Grad01-00) 100%);
+}
+
+.line-gradient2 {
+  background: var(--bgColor_Grad02-00);
+  background: -webkit-linear-gradient(left, var(--bgColor_Grad02-00) 1%, var(--bgColor_Grad02-01) 5%, var(--bgColor_Grad02-00) 12%, var(--bgColor_Grad02-00) 88%, var(--bgColor_Grad02-01) 93%, var(--bgColor_Grad02-01) 93%, var(--bgColor_Grad02-00) 100%);
+  background: -moz-linear-gradient(left, var(--bgColor_Grad02-00) 1%, var(--bgColor_Grad02-01) 5%, var(--bgColor_Grad02-00) 12%, var(--bgColor_Grad02-00) 88%, var(--bgColor_Grad02-01) 93%, var(--bgColor_Grad02-01) 93%, var(--bgColor_Grad02-00) 100%);
+  background: -o-linear-gradient(left, var(--bgColor_Grad02-00) 1%, var(--bgColor_Grad02-01) 5%, var(--bgColor_Grad02-00) 12%, var(--bgColor_Grad02-00) 88%, var(--bgColor_Grad02-01) 93%, var(--bgColor_Grad02-01) 93%, var(--bgColor_Grad02-00) 100%);
+  background: linear-gradient(to right, var(--bgColor_Grad02-00) 1%, var(--bgColor_Grad02-01) 5%, var(--bgColor_Grad02-00) 12%, var(--bgColor_Grad02-00) 88%, var(--bgColor_Grad02-01) 93%, var(--bgColor_Grad02-01) 93%, var(--bgColor_Grad02-00) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3c3d3e', endColorstr='#3c3d3e', GradientType=1);
+}
+
+.btn-line-gradient-blue {
+  background: var(--bgColor_Grad03-00);
+  background: -webkit-linear-gradient(top, var(--bgColor_Grad03-00) 1%, var(--bgColor_Grad03-01) 100%);
+  background: -moz-linear-gradient(top, var(--bgColor_Grad03-00) 1%, var(--bgColor_Grad03-01) 100%);
+  background: -o-linear-gradient(top, var(--bgColor_Grad03-00) 1%, var(--bgColor_Grad03-01) 100%);
+  background: linear-gradient(to bottom, var(--bgColor_Grad03-00) 1%, var(--bgColor_Grad03-01) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--bgColor_Grad03-00)', endColorstr='var(--bgColor_Grad03-01)', GradientType=0);
+}
+
+.btn-line-gradient-red {
+  background: var(--bgColor_Grad04-00);
+  background: -webkit-linear-gradient(top, var(--bgColor_Grad04-00) 1%, var(--bgColor_Grad04-01) 100%);
+  background: -moz-linear-gradient(top, var(--bgColor_Grad04-00) 1%, var(--bgColor_Grad04-01) 100%);
+  background: -o-linear-gradient(top, var(--bgColor_Grad04-00) 1%, var(--bgColor_Grad04-01) 100%);
+  background: linear-gradient(to bottom, var(--bgColor_Grad04-00) 1%, var(--bgColor_Grad04-01) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--bgColor_Grad04-00)', endColorstr='var(--bgColor_Grad04-01)', GradientType=0);
+}
+
+.btn-line-gradient-tab {
+  background: var(--bgColor_Grad05-00);
+  background: -webkit-linear-gradient(top, var(--bgColor_Grad05-00) 1%, var(--bgColor_Grad05-01) 100%);
+  background: -moz-linear-gradient(top, var(--bgColor_Grad05-00) 1%, var(--bgColor_Grad05-01) 100%);
+  background: -o-linear-gradient(top, var(--bgColor_Grad05-00) 1%, var(--bgColor_Grad05-01) 100%);
+  background: linear-gradient(to bottom, var(--bgColor_Grad05-00) 1%, var(--bgColor_Grad05-01) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--bgColor_Grad05-00)', endColorstr='var(--bgColor_Grad05-01)', GradientType=0);
+}
+
+.btn-line-gradient-tab-active {
+  background: var(--bgColor_Grad06-00);
+  background: -webkit-linear-gradient(top, var(--bgColor_Grad06-00) 1%, var(--bgColor_Grad06-01) 100%);
+  background: -moz-linear-gradient(top, var(--bgColor_Grad06-00) 1%, var(--bgColor_Grad06-01) 100%);
+  background: -o-linear-gradient(top, var(--bgColor_Grad06-00) 1%, var(--bgColor_Grad06-01) 100%);
+  background: linear-gradient(to bottom, var(--bgColor_Grad06-00) 1%, var(--bgColor_Grad06-01) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--bgColor_Grad06-00)', endColorstr='var(--bgColor_Grad06-01)', GradientType=0);
+}
+
+.footer-line-gradient {
+  background: var(--bgColor_Grad09-00);
+  background: -moz-linear-gradient(top, var(--bgColor_Grad09-00) 0%, var(--bgColor_Grad09-01) 40%, var(--bgColor_Grad09-02) 100%);
+  background: -webkit-linear-gradient(top, var(--bgColor_Grad09-00) 0%, var(--bgColor_Grad09-01) 40%, var(--bgColor_Grad09-02) 100%);
+  background: -o-linear-gradient(top, var(--bgColor_Grad09-00) 0%, var(--bgColor_Grad09-01) 40%, var(--bgColor_Grad09-02) 100%);
+  background: linear-gradient(to bottom, var(--bgColor_Grad09-00) 0%, var(--bgColor_Grad09-01) 40%, var(--bgColor_Grad09-02) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--bgColor_Grad09-00)', endColorstr='var(--bgColor_Grad09-02)', GradientType=0);
+}

@@ -1,0 +1,595 @@
+.idnPage {
+	animation: none !important;
+}
+
+.idnZone {
+	/*background-image: url(../common/lobbyBG.png);*/
+	background-size: cover;
+	width: 100%;
+	padding-bottom: 55%;
+	transition: .4s ease-out;
+	position: relative;
+}
+
+.webp .idnZone {
+	background-image: url(../common/lobbyBG.webp);
+}
+
+.no-webp .idnZone {
+	background-image: url(../common/lobbyBG.png);
+}
+
+.idnZone .idnWrapper {
+	width: 92%;
+	height: 90%;
+	position: absolute;
+	top: 54%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.idnZone .idnWrapper .title {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.idnZone .idnWrapper .title .leftZone {
+	color: var(--txtColor71);
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 17vw;
+	transform: translateZ(0px);
+	margin-right: 1vw;
+}
+
+.idnZone .idnWrapper .title .leftZone span.icon-iiconLogoB {
+	font-size: 2.3vw;
+	margin-right: 4px;
+}
+
+.idnZone .idnWrapper .title .leftZone h4 {
+	font-size: 1.4vw;
+	margin-right: 0.5vw;
+}
+
+.idnZone .idnWrapper .title .leftZone span {
+	color: var(--txtColor65);
+	font-size: 1.4vw;
+}
+
+.idnZone .idnWrapper .title .line {
+	height: 2px;
+	width: 72vw;
+	background-color: var(--bgColor085);
+	position: relative;
+}
+
+.idnZone .idnWrapper .title .line::before {
+	content: "";
+	width: 8px;
+	height: 8px;
+	background-color: var(--bgColor085);
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	transform: translate(-50%, -50%);
+}
+
+.idnZone .idnWrapper .content {
+	display: flex;
+	align-items: start;
+	justify-content: space-around;
+	margin-top: 4vh;
+}
+
+.idnZone .idnWrapper .content .leftFrame {
+	width: 55%;
+	position: relative;
+	animation: rightIn .4s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+	min-height: 695px;
+}
+
+.idnZone .idnWrapper .content .leftZone {
+	/*background-image: url(../IdnPoker/images/idnPoker_bg.png);*/
+	background-size: cover;
+	width: 100%;
+	padding-bottom: 100%;
+	position: relative;
+}
+
+.webp .idnZone .idnWrapper .content .leftZone {
+	background-image: url(../IdnPoker/images/idnPoker_bg.webp);
+}
+
+.no-webp .idnZone .idnWrapper .content .leftZone {
+	background-image: url(../IdnPoker/images/idnPoker_bg.png);
+}
+
+.idnZone .idnWrapper .content .leftZone .obj {
+	/*background-image: url(../IdnPoker/images/obj01.png);*/
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 0px;
+	padding-bottom: 100%;
+	background-size: cover;
+	position: absolute;
+}
+
+.webp .idnZone .idnWrapper .content .leftZone .obj {
+	background-image: url(../IdnPoker/images/obj01.webp);
+}
+
+.no-webp .idnZone .idnWrapper .content .leftZone .obj {
+	background-image: url(../IdnPoker/images/obj01.png);
+}
+
+.idnZone .idnWrapper .content .rightZone {
+	width: 45%;
+}
+
+.idnZone .idnWrapper .content .rightZone .txt {
+	margin-bottom: 27px;
+	position: relative;
+	z-index: 3;
+	width: 80%;
+	text-align: justify;
+	animation: topIn .4s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+.idnZone .idnWrapper .content .rightZone .txt h2 {
+	color: var(--txtColor72);
+	font-size: 1.5vw;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.idnZone .idnWrapper .content .rightZone .txt p {
+	color: var(--txtColor66);
+	line-height: 1.6;
+	font-size: 0.6vw;
+}
+
+.idnZone .idnWrapper .content .rightZone .btnA {
+	background: rgb(242, 208, 155);
+	background: linear-gradient(0deg, rgba(242, 208, 155, 1) 0%, rgba(219, 184, 151, 1) 34%, rgba(142, 112, 84, 1) 100%);
+	position: relative;
+	border-radius: 50px;
+	padding: 28px 91px;
+	color: var(--txtColor74);
+	transition: .3s ease-out;
+	display: inline-block;
+	margin-top: 28px;
+	cursor: pointer;
+}
+
+.idnZone .idnWrapper .content .rightZone .btnA .btnAinner {
+	width: 97%;
+	height: 97%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgb(255, 238, 211);
+	background: linear-gradient(90deg, rgba(255, 238, 211, 1) 0%, rgba(219, 184, 151, 1) 75%, rgba(201, 170, 141, 1) 100%);
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 21px;
+	font-weight: bold;
+	box-shadow: var(--shadow08) 0em 0em 0.6em;
+}
+
+.idnZone .idnWrapper .content .rightZone .btnA:hover {
+	color: var(--txtColor02);
+}
+
+.idnZone .idnWrapper .content .rightZone .obj {
+	display: none;
+	/* background-image: url(../IdnPoker/images/obj02.png); */
+	background-repeat: no-repeat;
+	width: 77%;
+	height: 0px;
+	padding-bottom: 109%;
+	background-size: cover;
+	position: absolute;
+	/* top: -42%; */
+	/* left: 11%; */
+	z-index: 2;
+	opacity: 0.8;
+	transition: .4s ease-out;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns {
+	z-index: 3;
+	position: relative;
+	animation: leftIn .4s;
+	/* animation-delay: .33s; */
+	animation-fill-mode: forwards;
+	opacity: 0;
+	min-height: 560px;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: start;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li {
+	width: 31.5%;
+	height: 150px;
+	border: 1px solid var(--bdColor038);
+	border-radius: 10px;
+	box-shadow: 2px 4px 5px 1px rgb(167 181 204 / 35%), inset 0px 0px 6px 1px rgb(255 255 255 / 75%);
+	padding-bottom: 23px;
+	margin-bottom: 21px;
+	background: var(--bgColor073);
+	background: linear-gradient(360deg, var(--bgColor074_gs) 0%, var(--bgColor074_ge) 100%);
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	margin-right: 1.5%;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li .logo {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 53%;
+	height: 0px;
+	margin-top: 10px;
+	transition: .3s ease-out;
+	position: absolute;
+	z-index: 2;
+	margin: 0 auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -68%);
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li.icon-IdnTexasPoker .logoA {
+	background-image: url(../IdnPoker/images/idn001.png);
+	padding-bottom: 43%;
+	width: 62%;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li.icon-IdnCemeKeliling .logoA {
+	background-image: url(../IdnPoker/images/idn002.png);
+	padding-bottom: 41%;
+	width: 51%;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li.icon-idnDominobet .logoA {
+	background-image: url(../IdnPoker/images/idn003.png);
+	padding-bottom: 39%;
+	width: 45%;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li.icon-IdnCeme .logoA {
+	background-image: url(../IdnPoker/images/idn004.png);
+	padding-bottom: 39%;
+	width: 49%;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li.icon-IdnDealerCapsa .logoA {
+	background-image: url(../IdnPoker/images/idn005.png);
+	padding-bottom: 39%;
+	width: 36%;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li.icon-IdnSuperTen .logoA {
+	background-image: url(../IdnPoker/images/idn006.png);
+	padding-bottom: 37%;
+	width: 56%;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li.icon-IdnPotLimitOmaha .logoA {
+	background-image: url(../IdnPoker/images/idn007.png);
+	padding-bottom: 33.8%;
+	width: 50.11%;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li.icon-IdnBlackjack .logoA {
+	background-image: url(../IdnPoker/images/idn008.png);
+	padding-bottom: 39%;
+	width: 53%;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li.icon-IdnSuperBull .logoA {
+	background-image: url(../IdnPoker/images/idn009.png);
+	padding-bottom: 39%;
+	width: 49%;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li.icon-IdnCapsaSusun .logoA {
+	background-image: url(../IdnPoker/images/idn010.png);
+	padding-bottom: 44%;
+	width: 40%;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li.icon-IdnQQSpirit .logoA {
+	background-image: url(../IdnPoker/images/idn011.png);
+	padding-bottom: 45%;
+	width: 53%;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li:hover .logo {}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li .txt01 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 2;
+	position: absolute;
+	bottom: 13px;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li .txt01 h2 {
+	font-size: 0.9vw;
+	color: var(--txtColor73);
+	font-family: arial;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 87%;
+	text-align: center;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li .txt01 span {
+	font-size: 0.4vw;
+	color: var(--txtColor73);
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li:hover .txt01 h2,
+.idnZone .idnWrapper .content .rightZone .btns ul li:hover .txt01 span {
+	color: var(--txtColor02);
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li .mask {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: var(--bgColor075);
+	background: linear-gradient(0deg, var(--bgColor076_g01) 0%, var(--bgColor076_g02) 40%, var(--bgColor076_g03) 100%);
+	border-radius: 8px;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	display: none;
+	transition: .4s ease-out;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li .mask .inner {
+	width: 99%;
+	height: 99%;
+	background: var(--bgColor077);
+	background: linear-gradient(180deg, var(--bgColor078_g01) 0%, var(--bgColor078_g02) 75%, var(--bgColor078_g03) 100%);
+	border-radius: 8px;
+	z-index: 1;
+	display: none;
+	transition: .4s ease-out;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li:hover .mask,
+.idnZone .idnWrapper .content .rightZone .btns ul li:hover .inner {
+	display: flex;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li.maintainGo .maintain {
+	display: flex;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li .maintain {
+	display: none;
+	background-color: var(--bgColor084);
+	border: 1px solid var(--bdColor052);
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li .maintain span {
+	font-size: 4.5vw;
+	color: var(--txtColor85);
+}
+
+.idnZone .idnWrapper .content .rightZone .btns ul li .maintain h4 {
+	color: var(--txtColor85);
+	font-size: 0.7vw;
+	font-weight: bold;
+	margin-top: 3%;
+	font-family: arial;
+}
+
+
+/*animation*/
+
+/*animation*/
+.aniLogo {
+	-webkit-animation: aniLogo 1.5s infinite;
+	animation: aniLogo 1.5s infinite;
+}
+
+@keyframes aniLogo {
+	0% {
+		background-position-y: 0px;
+		transform: scale(1);
+	}
+
+	50% {
+		background-position-y: 5px;
+		transform: scale(1.03);
+	}
+
+	100% {
+		background-position-y: 0px;
+		transform: scale(1);
+	}
+}
+
+.aniLogo01 {
+	-webkit-animation: aniLogo01 2.6s infinite;
+	animation: aniLogo01 2.6s infinite;
+}
+
+@keyframes aniLogo01 {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.01);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.aniLogo02 {
+	-webkit-animation: aniLogo02 1s infinite;
+	animation: aniLogo02 1s infinite;
+}
+
+@keyframes aniLogo02 {
+	0% {
+		background-position-y: 0px;
+		transform: scale(1);
+	}
+
+	50% {
+		background-position-y: 5px;
+		transform: scale(1.01);
+	}
+
+	100% {
+		background-position-y: 0px;
+		transform: scale(1);
+	}
+}
+
+.aniLogo03 {
+	-webkit-animation: aniLogo03 1s infinite;
+	animation: aniLogo03 1s infinite;
+}
+
+/*rwd*/
+@media (max-width:1524px) {
+	.idnZone .idnWrapper .content .leftFrame {
+		/* width: 46%; */
+	}
+
+	.idnZone .idnWrapper .content .rightZone {
+		/* width: 53%; */
+	}
+
+	.idnZone .idnWrapper .content .rightZone .btns ul li {
+		width: 23.5%;
+		height: 127px;
+	}
+}
+
+@media (max-width:1350px) {
+	.idnZone .idnWrapper .content .rightZone .btns ul li .txt01 h2 {}
+
+	.idnZone .idnWrapper .content .rightZone .btns ul li .txt01 span {
+		font-size: 12px;
+	}
+
+	.idnZone .idnWrapper .content .rightZone .txt h2 {
+		font-size: 24px;
+	}
+}
+
+@media (max-width:1104px) {
+	.idnZone .idnWrapper .content .rightZone .btns ul li {
+		height: 110px;
+	}
+}
+
+@keyframes aniLogo03 {
+	0% {
+		background-position-y: 0px;
+	}
+
+	50% {
+		background-position-y: 2px;
+	}
+
+	100% {
+		background-position-y: 0px;
+	}
+}
+
+
+
+@keyframes leftIn {
+	0% {
+		-webkit-transform: translateX(50%);
+		-moz-transform: translateX(50%);
+		-o-transform: translateX(50%);
+		transform: translateX(50%);
+		opacity: 0
+	}
+
+	to {
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-o-transform: translateX(0);
+		transform: translateX(0);
+		opacity: 1
+	}
+}
+
+@keyframes rightIn {
+	0% {
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
+		opacity: 0
+	}
+
+	to {
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-o-transform: translateX(0);
+		transform: translateX(0);
+		opacity: 1
+	}
+}
+
+@keyframes topIn {
+	0% {
+		-webkit-transform: translateY(-300%);
+		-moz-transform: translateY(-300%);
+		-o-transform: translateY(-300%);
+		transform: translateY(-300%);
+		opacity: 0
+	}
+
+	to {
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1
+	}
+}
